@@ -1,1 +1,3 @@
-bradleyschwarz.com version 2.0
+bradleyschwarz.com 
+
+personal website portfolio
