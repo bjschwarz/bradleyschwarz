@@ -22,7 +22,7 @@ html {
 }
 
 .contact-icon {
-  color: #131314;
+  color: #eee;
 }
 
 .hero {
@@ -30,19 +30,19 @@ html {
   background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: #131314;
+  color: #eee;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Poppins', sans-serif;
 }
 
 .hero .title {
   font-size: 5rem;
-  color: #131314;
+  color: #eee;
 }
 
 .hero .subtitle {
   padding: 5px;
-  color: #131314;
+  color: #eee;
 }
 
 .hero .profession {
