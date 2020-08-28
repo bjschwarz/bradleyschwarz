@@ -21,9 +21,6 @@ html {
   border:5px solid #000; 
 }
 
-.contact-icon {
-  color: #eee;
-}
 
 .hero {
   background-image: url(https://picsum.photos/id/381/1920/1080);
@@ -35,20 +32,24 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+.contact-icon {
+  color: #000;
+}
 .hero .title {
   font-size: 5rem;
-  color: #eee;
+  color: #000;
 }
 
 .hero .subtitle {
   padding: 5px;
-  color: #eee;
+  font-size: 1.7rem;
+  color: #000;
 }
 
 .hero .profession {
-  padding-top: 50px;
   font-size: 1.7rem;
   text-transform: uppercase;
+  color: #000;
 }
 
 .hero .hero-foot {
@@ -195,6 +196,7 @@ html {
 }
 
 .main-content .section-dark.skills {
+  background-color: #242124;
   padding: 100px;
 }
 
