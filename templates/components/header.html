@@ -1,0 +1,96 @@
+<div class="header-wrapper" id="home">
+  <!-- Begin Hero -->
+  <section class="hero is-fullheight">
+    <!-- Begin Mobile Nav -->
+    <nav class="navbar is-transparent is-hidden-desktop">
+      <!-- Begin Burger Menu -->
+      <div class="navbar-brand">
+        <div class="navbar-burger burger" data-target="mobile-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <!-- End Burger Menu -->
+      <div id="mobile-nav" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="navbar-item" href="#home">
+              Home
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a class="navbar-item" href="#about-me">
+              About Me
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a class="navbar-item" href="#services">
+              Services
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a class="navbar-item" href="#skills">
+              Skills
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a class="navbar-item" href="#my-work">
+              My Work
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a class="navbar-item" href="#contact">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Mobile Nav -->
+    <!-- Begin Hero Content-->
+    <div class="hero-body">
+      <h1 class="subtitle">I'm</h1>
+      <h2 class="title">Bradley</h2>
+          <div class="container has-text-centered">
+        <img class="self-profile" src="{{ url_for('static', filename='img/profile.jpg') }}" alt="Avatar">
+
+        <a class="contact-icon" href="https://github.com/bjschwa2"><i class="fab fa-github fa-lg"></i></a>
+        <a class="contact-icon" href="https://www.linkedin.com/in/bradley-schwarz-a19a19b8"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a class="contact-icon" href="mailto:bradleyschwarz1@gmail.edu"><i class="fas fa-envelope fa-lg"></i></a>
+      </div>
+        <h1 class="subtitle profession">A UI/UX Designer</h1> 
+      <!-- <h1 class="subtitle profession">and Developer</h1>  -->
+      
+    </div>
+    <!-- End Hero Content-->
+    <!-- Begin Hero Menu -->
+    <div class="hero-foot ">
+      <div class="hero-foot--wrapper">
+        <div class="columns">
+          <div class="column is-12 hero-menu-desktop has-text-centered">
+            <ul>
+              <li class="is-active">
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about-me">About Me</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#my-work">My Work</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Menu -->
+  </section>
+  <!-- End Hero -->
+</div>
