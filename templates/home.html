@@ -8,7 +8,7 @@
     <div class="section-dark about-me" id="about-me">
         <div class="container">
             <div class="column is-12 about-me">
-                <h1 class="title has-text-centered section-title">About Me</h1>
+                <h1 class="title has-text-centered section-title">About</h1>
             </div>
             <div class="columns is-multiline">
                 <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
@@ -17,21 +17,21 @@
                     </p>
                     <br />
                     <p>
-                        Making a difficult concept easy to understand, or a complex system simple to use are my areas of intrest.
-                        I also find discussions about <i>how we are meant to live as humans</i> fascinating. My hobbies also
+                        Making a difficult concept easy to understand, or a complex system simple to use are my areas of
+                        intrest.
+                        I also find discussions about <i>how we are meant to live as humans</i> fascinating. My hobbies
+                        also
                         include hand tool woodworking.
                     </p>
                     <br />
                     <div class="is-divider"></div>
+                    <a class="contact-icon" href="https://github.com/bjschwarz"><i class="fab fa-github fa-lg"></i></a>
+                    <a class="contact-icon" href="https://www.linkedin.com/in/bradley-schwarz-a19a19b8"><i
+                            class="fab fa-linkedin fa-lg"></i></a>
+                    <a class="contact-icon" href="mailto:bradleyschwarz1@gmail.edu"><i
+                            class="fas fa-envelope fa-lg"></i></a>
+
                     <div class="columns about-links">
-                        <div class="column">
-                            <p class="heading">
-                                <strong>Call (but I might not pick up)</strong>
-                            </p>
-                            <p class="subheading">
-                                704-241-2153
-                            </p>
-                        </div>
                         <div class="column">
                             <p class="heading">
                                 <strong>Email</strong>
@@ -41,28 +41,14 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="column is-6 right-image " data-aos="fade-left">
-                    <img class="is-rounded" src="{{ url_for('static', filename='img/workshop.jpg') }}" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End About Me Content -->
-    <div class="section-dark resume">
-        <div class="container">
-            <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
-                <div class="column is-12 about-me">
-                    <h1 class="title has-text-centered section-title">
-                        View My Resume
-                    </h1>
-                </div>
-                <div class="column is-10 has-text-centered is-offset-1">
-                    <form action="/download_resume">
+                    <form class="resume" action="/download_resume">
                         <button class="button">
                             Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
                         </button>
                     </form>
+                </div>
+                <div class="column is-6 right-image " data-aos="fade-left">
+                    <img class="is-rounded" src="{{ url_for('static', filename='img/workshop.jpg') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -120,7 +106,8 @@
                 <div class="column is-4">
                     <a href="#">
                         <figure class="image is-2by1 work-item"
-                            style="background-image: url({{ url_for('static', filename='img/asis_architecture.png') }});"></figure>
+                            style="background-image: url({{ url_for('static', filename='img/asis_architecture.png') }});">
+                        </figure>
                     </a>
                 </div>
             </div>

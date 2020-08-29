@@ -33,10 +33,11 @@ html {
 }
 
 .contact-icon {
-  color: #000;
+  color: #9a875f;
 }
 .hero .title {
   font-size: 5rem;
+  text-transform: uppercase;
   color: #000;
 }
 
@@ -124,7 +125,7 @@ html {
   padding: 20px;
 }
 
-.main-content .section-dark.resume button {
+.main-content .resume button {
   border: 2px solid #46423b;
   background: #9a875f;
   color: #46423b;
@@ -135,7 +136,7 @@ html {
 }
 
 .main-content .section-dark.resume .fa-download {
-  color: #75715e;
+  color: #131314;
 }
 
 .main-content .section-dark.my-work {
