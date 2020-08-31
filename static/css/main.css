@@ -41,9 +41,14 @@ html {
   color: #000;
 }
 
+.hero{
+  display: flex;
+  justify-content: center; 
+}
+
 .hero .subtitle {
-  padding: 5px;
   font-size: 1.7rem;
+  text-transform: uppercase;
   color: #000;
 }
 
@@ -51,6 +56,12 @@ html {
   font-size: 1.7rem;
   text-transform: uppercase;
   color: #000;
+}
+
+@media (max-width: 599px) {
+  .hero .profession {
+    color: #eee
+  }
 }
 
 .hero .hero-foot {
@@ -97,6 +108,14 @@ html {
   transition: all .2s ease-in-out;
   border-bottom: 2px solid #534d35;
 }
+
+#mobile-nav {
+  background-color: #242124;
+}
+
+#mobile-nav .navbar-end .navbar-item a {
+  color: #9a875f
+} 
 
 .main-content {
   padding-top: 2rem;

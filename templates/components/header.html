@@ -40,12 +40,22 @@
     </nav>
     <!-- End Mobile Nav -->
     <!-- Begin Hero Content-->
-    <div class="hero-body">
-      <h2 class="title">Bradley</h2>
-      <div class="container has-text-centered">
-        <img class="self-profile" src="{{ url_for('static', filename='img/profile.jpg') }}" alt="Avatar">
+    <div class="hero-body has-text-centered">
+      <div class="container">
+        <div class='columns'>
+          <div class="column has-text-centered">
+            <h1 class="subtitle">Bradley Schwarz</h1>
+          </div>
+          <!-- <div class=""> -->
+          <div class="column is-narrow  has-text-centered">
+            <img class="self-profile" src="{{ url_for('static', filename='img/profile.jpg') }}" alt="Avatar">
+          </div>
+          <!-- </div> -->
+          <div class="column  has-text-centered">
+            <h1 class="profession">UI/UX Designer</h1>
+          </div>
+        </div>
       </div>
-      <h1 class="subtitle profession">UI/UX Designer</h1>
       <!-- <h1 class="subtitle profession">and Developer</h1>  -->
 
     </div>
