@@ -55,3 +55,21 @@ document.addEventListener("DOMContentLoaded", function() {
     var Body = $("body");
     Body.addClass("preloader-site");
   });
+
+// button
+  $(".modal-button").click(function() {
+    console.log('modal button')
+    var target = $(this).data("target");
+    $("html").addClass("is-clipped");
+    $(target).addClass("is-active");
+ });
+ 
+ $(".modal-close").click(function() {
+    $("html").removeClass("is-clipped");
+    $(this).parent().removeClass("is-active");
+ });
+
+ $(".modal-background").click(function() {
+  $("html").removeClass("is-clipped");
+  $(this).parent().removeClass("is-active");
+});

@@ -83,28 +83,63 @@
     <!-- Begin Work Content -->
     <div class="section-dark my-work" id="my-work">
         <div class="container">
-            <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
+            <div class="columns is-multiline">
                 <div class="column is-12">
                     <h1 class="title has-text-centered section-title">Portfolio</h1>
                 </div>
                 <div class="column is-4">
-                    <a href="#">
+                    <a class="modal-button" data-target = "#modal">
                         <figure class="image is-2by1 work-item"
                             style="background-image: url({{ url_for('static', filename='img/QView.png') }});"></figure>
                     </a>
+                    <div id = "modal" class="modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-content">
+                            <p class="image is-fullwidth">
+                                QView
+                                <img src="{{ url_for('static', filename='img/QView.png') }}" alt="">
+                                An elaborate VMS like viewer application for Aqueti camera system. Written in Vuejs.
+                            </p>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
                 </div>
+
                 <div class="column is-4">
-                    <a href="#">
+                    <a class="modal-button" data-target = "#modal2">
                         <figure class="image is-2by1 work-item"
                             style="background-image: url({{ url_for('static', filename='img/QAdmin.png') }});"></figure>
                     </a>
+                    <div id = "modal2" class="modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-content">
+                            <p class="image is-fullwidth">
+                                QAdmin
+                                <img src="{{ url_for('static', filename='img/QAdmin.png') }}" alt="">
+                                An extensive Vue frontend for managing Aqueti camera systems.
+                            </p>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
                 </div>
                 <div class="column is-4">
-                    <a href="#">
+                    <a class="modal-button" data-target = "#modal3">
                         <figure class="image is-2by1 work-item"
                             style="background-image: url({{ url_for('static', filename='img/asis_architecture.png') }});">
                         </figure>
                     </a>
+                    <div id = "modal3" class="modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-content">
+                            <p class="image is-fullwidth">
+                                ASIS
+                                <img src="{{ url_for('static', filename='img/asis_architecture.png') }}" alt="">
+                                A backend infastructure communicating with sockets and redis. Exposing a JWT secured Socketio API,
+                                as well as WebRTC media channels. <a href="https://aqueti.github.io/asis/build/html/index.html">Documentation</a>
+                            </p>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
                 </div>
             </div>
         </div>
