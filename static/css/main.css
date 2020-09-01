@@ -369,3 +369,7 @@ body.preloader-site {
 
 .white
 {color:ghostwhite}
+
+.modal-content {
+  width: 1200px !important;
+}
