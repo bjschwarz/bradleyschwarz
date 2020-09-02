@@ -283,8 +283,8 @@ html {
   height: 80px;
   line-height: 25px;
   text-align: center;
-  background: #1f2c6c;
-  color: whitesmoke;
+  background-color: #242124 !important;
+  color: #9a875f;
   padding-top: 2rem;
 }
 
