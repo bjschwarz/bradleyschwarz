@@ -168,6 +168,10 @@ html {
   }
 }
 
+.main-content .section-dark.my-work .modal-content {
+  width: 1200px !important;
+}
+
 .main-content .section-dark.my-work .work-item {
   margin-bottom: 1rem;
   -webkit-transition: all .1s ease-in-out;
@@ -333,6 +337,32 @@ html {
   background-color: #858167;
 }
 
+#toHome {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #534d35;
+  color: #9a875f;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 2rem;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+#toHome a {
+  color: white;
+}
+
+
+#toHome:hover {
+  background-color: #858167;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   background-color: rgba(245, 245, 245, 0);
@@ -370,6 +400,12 @@ body.preloader-site {
 .white
 {color:ghostwhite}
 
-.modal-content {
-  width: 1200px !important;
+.main-content .section-dark.art .art-item {
+  margin-bottom: 1rem;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
