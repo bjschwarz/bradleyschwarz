@@ -20,7 +20,7 @@ const drawerWidth = 240;
 //const navItems = [{Home: '/home'}, {'Gallery': '/gallery'}, {'About': '/about'}, {'Contact': '/contact'}];
 
 const navItems = {
-  home: {title: "Home", href : "/home"},
+  home: {title: "Home", href : "/"},
   gallery: {title: "Gallery", href : "/gallery"},
   about: {title: "About", href : "/about"},
   contact: {title: "Contact", href : "/contact"},
@@ -36,13 +36,13 @@ export default function DrawerAppBar() {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        Bradley Schwarz Studio
       </Typography>
       <Divider />
       <List>
         {Object.entries(navItems).map(([key, value]) => (
-          <ListItem href={value.href} key={value.title} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
+          <ListItem key={value.title} disablePadding>
+            <ListItemButton href={value.href} sx={{ textAlign: 'center' }}>
               <ListItemText primary={value.title} />
             </ListItemButton>
           </ListItem>
@@ -70,7 +70,7 @@ export default function DrawerAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
+            Bradley Schwarz Studio
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {Object.entries(navItems).map(([key, value]) => (

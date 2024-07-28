@@ -5,12 +5,10 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import NextLink from 'next/link';
 import Copyright from '@/components/Copyright';
-import TitleBar from '@/components/TitleBar';
 
 export default function Home() {
   return (
     <Container maxWidth="lg">
-      <TitleBar></TitleBar>
       <Box
         sx={{
           my: 4,
