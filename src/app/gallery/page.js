@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import NextLink from 'next/link';
 import Copyright from '@/components/Copyright';
+import ImageGallery from '@/components/ImageGallery';
 
 export default function Gallery() {
   return (
@@ -21,10 +22,8 @@ export default function Gallery() {
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
           Gallery
         </Typography>
-        <Box sx={{ maxWidth: 'sm' }}>
-          <Button variant="contained" component={NextLink} href="/">
-            Go to the home page
-          </Button>
+        <Box>
+          <ImageGallery></ImageGallery>
         </Box>
         <Copyright />
       </Box>

@@ -17,7 +17,6 @@ import Button from '@mui/material/Button';
 import NextLink from 'next/link';
 
 const drawerWidth = 240;
-//const navItems = [{Home: '/home'}, {'Gallery': '/gallery'}, {'About': '/about'}, {'Contact': '/contact'}];
 
 const navItems = {
   home: {title: "Home", href : "/"},
@@ -54,7 +53,7 @@ export default function DrawerAppBar() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar elevation={0} color='primary' component="nav">
         <Toolbar>
           <IconButton
             color="inherit"
@@ -74,7 +73,7 @@ export default function DrawerAppBar() {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {Object.entries(navItems).map(([key, value]) => (
-              <Button href={value.href} key={value.title} sx={{ color: '#fff' }}>
+              <Button href={value.href} key={value.title} color='secondary'>
                 {value.title}
               </Button>
             ))}
