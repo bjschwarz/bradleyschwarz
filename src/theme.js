@@ -1,6 +1,8 @@
 'use client';
 import { Roboto } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],

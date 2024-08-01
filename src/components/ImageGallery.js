@@ -13,8 +13,11 @@ export default function MasonryImageList() {
   const router = useRouter()
   const [isOpen, setIsOpen] = useState(false);
 
+  const [curr, setcurr] = useState(0);
+
   const handleOpen = (item) => {
     setIsOpen(!isOpen);
+    setcurr(item)
   };
 
   return (
@@ -30,11 +33,11 @@ export default function MasonryImageList() {
               loading="lazy"
               onClick={() => handleOpen(item)}
             />
-            <ProjectDetail isDialogOpened={isOpen}
-                handleCloseDialog={() => setIsOpen(false)} project={item}></ProjectDetail>
           </ImageListItem>
         ))}
       </ImageList>
+        <ProjectDetail isDialogOpened={isOpen}
+            handleCloseDialog={() => setIsOpen(false)} project={curr}></ProjectDetail>
     </Box>
   );
 }

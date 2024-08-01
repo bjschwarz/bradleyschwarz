@@ -1,46 +1,50 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@mui/material'
+import React from "react";
+import Slider from "react-slick";
 import Image from 'next/image'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Box from '@mui/material/Box';
+
 
 function ImageViewer({project}) {
 
+  var settings = {
+    dots: true,
+                infinite: true,
+                speed: 1000,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                lazyLoad: true,
+                centerMode: true,
+                adaptiveHeight: true,
+                fade: true,
+                arrows: true,
+                autoplaySpeed: 5000,
+                className: 'slides'
+  };
+
+  console.log(project)
+
   return (
-    <Box sx={{
-        my: 4,
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-      <Carousel sx={{width:'100%'}}>
-        {
-        project.additional_images.map((item, i) => (<Item key={i} item={item} />))
-        }
-      </Carousel>
-    </Box>
+    <div>
+    <Slider {...settings}>
+      <div className="slider-container">
+        <Slider {...settings}>
+        {project?.additional_images?.map((item) => (
+          <Box sx={{ display: 'flex', alignContent: 'center' }}>
+            <Image src={item} 
+            objectFit='cover'a
+            width={500}
+            loading="lazy"
+            ></Image>
+            
+          </Box>
+        ))} 
+        </Slider>
+      </div>
+    </Slider>
+    </div>
   );
 }
-
-function Item(props)
-{
-    return (
-        <Box sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-            <Image
-            height={600}
-            width={600}
-            objectFit='contain'
-            src={props.item}
-            alt={"s"}
-            ></Image>
-            </Box>
-    )
-}
-
 export default ImageViewer;

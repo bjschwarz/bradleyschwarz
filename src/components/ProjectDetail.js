@@ -15,6 +15,7 @@ import Slide from '@mui/material/Slide';
 import React, { useState, useEffect } from "react";
 import Image from 'next/image'
 import Carousel from '@/components/Carousel.js';
+import Box from '@mui/material/Box';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -57,7 +58,9 @@ export default function FullScreenDialog({ isDialogOpened, handleCloseDialog, pr
             </Typography>
           </Toolbar>
         </AppBar>
-        <Carousel project={project}></Carousel>
+        <Box>
+          <Carousel project={project}></Carousel>
+        </Box>
       </Dialog>
     </React.Fragment>
   );
