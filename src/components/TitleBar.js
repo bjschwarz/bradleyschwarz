@@ -19,8 +19,7 @@ import NextLink from 'next/link';
 const drawerWidth = 240;
 
 const navItems = {
-  home: {title: "Home", href : "/"},
-  gallery: {title: "Gallery", href : "/gallery"},
+  gallery: {title: "Gallery", href : "/"},
   about: {title: "About", href : "/about"},
   contact: {title: "Contact", href : "/contact"},
 }

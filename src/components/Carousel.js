@@ -1,50 +1,33 @@
-import React from "react";
-import Slider from "react-slick";
+import * as React from 'react';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
 import Image from 'next/image'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Box from '@mui/material/Box';
 
-
-function ImageViewer({project}) {
-
-  var settings = {
-    dots: true,
-                infinite: true,
-                speed: 1000,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                lazyLoad: true,
-                centerMode: true,
-                adaptiveHeight: true,
-                fade: true,
-                arrows: true,
-                autoplaySpeed: 5000,
-                className: 'slides'
-  };
-
-  console.log(project)
-
+export default function StandardImageList({project}) {
   return (
-    <div>
-    <Slider {...settings}>
-      <div className="slider-container">
-        <Slider {...settings}>
-        {project?.additional_images?.map((item) => (
-          <Box sx={{ display: 'flex', alignContent: 'center' }}>
-            <Image src={item} 
-            objectFit='cover'a
-            width={500}
-            loading="lazy"
-            ></Image>
-            
-          </Box>
-        ))} 
-        </Slider>
-      </div>
-    </Slider>
-    </div>
+    <Box
+        sx={{
+          my: 4,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+      <ImageList cols={2} gap={8}>
+        {project.additional_images.map((item) => (
+          <ImageListItem key={item.img}>
+            <Image
+                objectFit='cover'
+                width={500}
+                src={item.img}
+                alt={item.title}
+                loading="lazy"
+              />
+          </ImageListItem>
+        ))}
+      </ImageList>
+    </Box>
   );
 }
-export default ImageViewer;

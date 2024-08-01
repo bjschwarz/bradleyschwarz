@@ -16,8 +16,14 @@ const projects = [
         img: oakhook1,
         title: 'Oak Hook',
         additional_images: [
-            oakhook1,
-            oakhook2
+            {   
+                title: 'Oak Hook 1',
+                img: oakhook1
+            },
+            {   
+                title: 'Oak Hook 2',
+                img: oakhook2
+            },
         ],
         description: "client project.."
     },
@@ -25,8 +31,14 @@ const projects = [
         img: flowerhook1,
         title: 'Flower Hook',
         additional_images: [
-            flowerhook1,
-            flowerhook2,
+            {   
+                title: 'Flower Hook 1',
+                img: flowerhook1
+            },
+            {   
+                title: 'Flower Hook 2',
+                img: flowerhook2
+            },
         ],
         description: "client project.."
     },
@@ -34,8 +46,14 @@ const projects = [
         img: wallsconce1,
         title: 'Wall Sconce',
         additional_images: [
-            wallsconce1,
-            wallsconce2
+            {   
+                title: 'Wall Sconce 1',
+                img: wallsconce1
+            },
+            {   
+                title: 'Wall Sconce 1',
+                img: wallsconce2
+            },
         ],
         description: "client project.."
     },
@@ -43,8 +61,14 @@ const projects = [
         img: dryingrack1,
         title: 'Drying Rack',
         additional_images: [
-            dryingrack1,
-            dryingrack2
+            {   
+                title: 'Drying Rack 1',
+                img: dryingrack1
+            },
+            {   
+                title: 'Drying Rack 2',
+                img: dryingrack2
+            },
         ],
         description: "client project.."
     },
