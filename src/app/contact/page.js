@@ -4,7 +4,6 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import NextLink from 'next/link';
-import Copyright from '@/components/Copyright';
 import InputSlide from '@/components/InputSlide';
 
 export default function Contact() {

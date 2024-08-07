@@ -1,8 +1,7 @@
 'use client';
 import { Roboto } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Height } from '@mui/icons-material';
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -10,14 +9,22 @@ const roboto = Roboto({
   display: 'swap',
 });
 
+
 const theme = createTheme({
   palette: {
     mode: 'light',
     text: {
       primary: '#272727'
     },
+    background: {
+      default: '#f6f6f6'
+    },
+    text: {
+      default: '#272727',
+      contrastText: "f6f6f6"
+    },
     primary: {
-      light: '#f6f6f6',
+      light: '#4b4b4b',
       main: '#f6f6f6',
       dark: '#002884',
       contrastText: '#272727',
@@ -37,7 +44,7 @@ const theme = createTheme({
       styleOverrides: {
         root: ({ ownerState }) => ({
           ...(ownerState.severity === 'info' && {
-            backgroundColor: '#60a5fa',
+            backgroundColor: theme.palette.primary.light,
           }),
         }),
       },

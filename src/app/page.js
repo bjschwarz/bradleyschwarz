@@ -25,7 +25,6 @@ export default function Gallery() {
         <Box>
           <ImageGallery></ImageGallery>
         </Box>
-        <Copyright />
       </Box>
     </Container>
   );
