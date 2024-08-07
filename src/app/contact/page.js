@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import NextLink from 'next/link';
 import Copyright from '@/components/Copyright';
+import InputSlide from '@/components/InputSlide';
 
 export default function Contact() {
   return (
@@ -21,12 +22,9 @@ export default function Contact() {
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
           Contact
         </Typography>
-        <Box sx={{ maxWidth: 'sm' }}>
-          <Button variant="contained" component={NextLink} href="/">
-            Go to the home page
-          </Button>
+        <Box >
+          <InputSlide/>
         </Box>
-        <Copyright />
       </Box>
     </Container>
   );
