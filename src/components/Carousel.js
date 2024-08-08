@@ -19,7 +19,7 @@ export default function StandardImageList({project}) {
       >
       <ImageList cols={2} gap={8}>
         {project.additional_images.map((item) => (
-          <ImageListItem key={item.img}>
+          <ImageListItem key={item.title}>
             <Image
                 objectFit='cover'
                 width={500}

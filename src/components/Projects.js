@@ -52,19 +52,19 @@ const projects = [
         title: 'Candelabra',
         additional_images: [
             {   
-                title: 'Candelabra ',
+                title: 'Candelabra 1',
                 img: candelabra1
             },
             {   
-                title: 'Candelabra ',
+                title: 'Candelabra 2',
                 img: candelabra2
             },
             {   
-                title: 'Candelabra ',
+                title: 'Candelabra 3',
                 img: candelabra3
             },
             {   
-                title: 'Candelabra ',
+                title: 'Candelabra 4',
                 img: candelabra4
             },
         ],
@@ -75,15 +75,15 @@ const projects = [
         title: 'Dividers',
         additional_images: [
             {   
-                title: 'Dividers ',
+                title: 'Dividers 1',
                 img: dividers1
             },
             {   
-                title: 'Dividers ',
+                title: 'Dividers 2',
                 img: dividers2
             },
             {   
-                title: 'Dividers ',
+                title: 'Dividers 3',
                 img: dividers3
             },
         ],
@@ -113,7 +113,7 @@ const projects = [
                 img: wallsconce1
             },
             {   
-                title: 'Wall Sconce 1',
+                title: 'Wall Sconce 2',
                 img: wallsconce2
             },
         ],

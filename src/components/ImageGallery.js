@@ -24,7 +24,7 @@ export default function MasonryImageList() {
     <Box>
       <ImageList variant="masonry" cols={3} gap={8}>
         {projects.map((item) => (
-          <ImageListItem key={item.img}>
+          <ImageListItem key={item.title}>
             <Image
               objectFit='cover'
               width={248}
