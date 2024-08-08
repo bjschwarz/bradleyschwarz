@@ -1,7 +1,9 @@
 import oakhook1 from "../../public/images/20240625_whiteoakhooks_018.jpg"
 import oakhook2 from "../../public/images/20240625_whiteoakhooks_079.jpg"
+import oakhook3 from "../../public/images/20240625_whiteoakhooks_091.jpg"
+import oakhook4 from "../../public/images/20240625_whiteoakhooks_099.jpg"
 
-import flowerhook1 from "../../public/images/20240715_summerrelease_618.jpg"
+import flowerhook1 from "../../public/images/20240509_springrelease_017.jpg"
 import flowerhook2 from "../../public/images/20240509_springrelease_003.jpg"
 
 import wallsconce1 from "../../public/images/20240509_springrelease_040.jpg"
@@ -9,6 +11,16 @@ import wallsconce2 from "../../public/images/20240509_springrelease_073.jpg"
 
 import dryingrack1 from "../../public/images/20240509_springrelease_186.jpg"
 import dryingrack2 from "../../public/images/20240509_springrelease_166.jpg"
+
+import candelabra1 from "../../public/images/20240513_candelabra_023.jpg"
+import candelabra2 from "../../public/images/20240513_candelabra_047.jpg"
+import candelabra3 from "../../public/images/20240513_candelabra_039_1.jpg"
+import candelabra4 from "../../public/images/20240513_candelabra_017_1.jpg"
+
+import dividers1 from "../../public/images/20240209_portfolio_014 copy.jpg"
+import dividers2 from "../../public/images/20240209_portfolio_019 copy.jpg"
+import dividers3 from "../../public/images/20240209_portfolio_030 copy.jpg"
+
 
 const projects = [
 
@@ -23,6 +35,56 @@ const projects = [
             {   
                 title: 'Oak Hook 2',
                 img: oakhook2
+            },
+            {   
+                title: 'Oak Hook 2',
+                img: oakhook3
+            },
+            {   
+                title: 'Oak Hook 2',
+                img: oakhook4
+            },
+        ],
+        description: "client project.."
+    },
+    {
+        img: candelabra1,
+        title: 'Candelabra',
+        additional_images: [
+            {   
+                title: 'Candelabra ',
+                img: candelabra1
+            },
+            {   
+                title: 'Candelabra ',
+                img: candelabra2
+            },
+            {   
+                title: 'Candelabra ',
+                img: candelabra3
+            },
+            {   
+                title: 'Candelabra ',
+                img: candelabra4
+            },
+        ],
+        description: "client project.."
+    },
+    {
+        img: dividers1,
+        title: 'Dividers',
+        additional_images: [
+            {   
+                title: 'Dividers ',
+                img: dividers1
+            },
+            {   
+                title: 'Dividers ',
+                img: dividers2
+            },
+            {   
+                title: 'Dividers ',
+                img: dividers3
             },
         ],
         description: "client project.."

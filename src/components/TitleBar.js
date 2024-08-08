@@ -15,6 +15,8 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import NextLink from 'next/link';
+import logo from "../../public/logo.png"
+import Image from 'next/image'
 
 const drawerWidth = 240;
 
@@ -33,9 +35,17 @@ export default function DrawerAppBar() {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        Bradley Schwarz Studio
-      </Typography>
+      <div sx={{ my: 4, ml: 2, }}>
+        <Image
+          width={50}
+          src={logo}
+          alt='logo'
+          loading="lazy"
+        />
+        <Typography variant="h6" >
+          Bradley Schwarz Studio
+        </Typography>
+      </div>
       <Divider />
       <List>
         {Object.entries(navItems).map(([key, value]) => (
@@ -63,10 +73,16 @@ export default function DrawerAppBar() {
           >
             <MenuIcon />
           </IconButton>
+          <Image
+            width={50}
+            src={logo}
+            alt='logo'
+            loading="lazy"
+          />
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ ml:2, flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
             Bradley Schwarz Studio
           </Typography>

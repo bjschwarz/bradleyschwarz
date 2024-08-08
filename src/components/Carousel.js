@@ -3,6 +3,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import Image from 'next/image'
 import Box from '@mui/material/Box';
+import theme from '@/theme';
 
 export default function StandardImageList({project}) {
   return (
@@ -13,6 +14,7 @@ export default function StandardImageList({project}) {
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
+          backgroundColor: theme.palette.background.default
         }}
       >
       <ImageList cols={2} gap={8}>

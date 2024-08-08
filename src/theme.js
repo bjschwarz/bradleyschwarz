@@ -1,9 +1,9 @@
 'use client';
-import { Roboto } from 'next/font/google';
+import { Raleway } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 import { Height } from '@mui/icons-material';
 
-const roboto = Roboto({
+const raleway = Raleway({
   weight: ['300', '400', '500', '700'],
   subsets: ['latin'],
   display: 'swap',
@@ -26,7 +26,7 @@ const theme = createTheme({
     primary: {
       light: '#4b4b4b',
       main: '#f6f6f6',
-      dark: '#002884',
+      dark: '#4b4b4b',
       contrastText: '#272727',
     },
     secondary: {
@@ -37,7 +37,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: roboto.style.fontFamily,
+    fontFamily: raleway.style.fontFamily,
   },
   components: {
     MuiAlert: {

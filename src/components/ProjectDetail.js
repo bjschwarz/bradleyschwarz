@@ -16,6 +16,7 @@ import React, { useState, useEffect } from "react";
 import Image from 'next/image'
 import Carousel from '@/components/Carousel.js';
 import Box from '@mui/material/Box';
+import theme from '@/theme';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -41,10 +42,9 @@ export default function FullScreenDialog({ isDialogOpened, handleCloseDialog, pr
         fullScreen
         open={isDialogOpened}
         onClose={handleClose}
-        TransitionComponent={Transition}
       >
-        <AppBar sx={{ position: 'relative' }}>
-          <Toolbar>
+        <AppBar elevation={0} sx={{ position: 'relative', }}>
+          <Toolbar elevation={0}>
             <IconButton
               edge="start"
               color="inherit"
@@ -58,7 +58,7 @@ export default function FullScreenDialog({ isDialogOpened, handleCloseDialog, pr
             </Typography>
           </Toolbar>
         </AppBar>
-        <Box>
+        <Box sx={{ backgroundColor: theme.palette.background.default, height: '100%' }}>
           <Carousel project={project}></Carousel>
         </Box>
       </Dialog>
