@@ -53,7 +53,7 @@ export default function About() {
                   Bradley Schwarz is a artist metalsmith based in Durham North Carolina. 
                 </Typography>
                 <Typography variant="body" component="h2">
-                  anoiasd oaisnd oaisnd oaisnd oaisd oains doians doians doians doians doiansd oians d
+                  I am facinated by the masterful works of antiquity. yadda yadda.
                 </Typography>
               </Box>
             </Item>

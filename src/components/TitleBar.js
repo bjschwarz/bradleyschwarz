@@ -17,6 +17,8 @@ import Button from '@mui/material/Button';
 import NextLink from 'next/link';
 import logo from "../../public/logo.png"
 import Image from 'next/image'
+import InstagramIcon from '@mui/icons-material/Instagram';
+
 
 const drawerWidth = 240;
 
@@ -59,6 +61,8 @@ export default function DrawerAppBar() {
           </ListItem>
         ))}
       </List>
+
+      <IconButton href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
     </Box>
   );
 
@@ -81,6 +85,7 @@ export default function DrawerAppBar() {
             src={logo}
             alt='logo'
             loading="lazy"
+            sx={{ display: { xs: 'none', sm: 'block' } }}
           />
           <Typography
             variant="h6"
@@ -89,13 +94,17 @@ export default function DrawerAppBar() {
           >
             Bradley Schwarz Studio
           </Typography>
+
+          
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <IconButton href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
             {Object.entries(navItems).map(([key, value]) => (
               <Button href={value.href} key={value.title} color='secondary'>
                 {value.title}
               </Button>
             ))}
           </Box>
+          
         </Toolbar>
       </AppBar>
       <nav>
