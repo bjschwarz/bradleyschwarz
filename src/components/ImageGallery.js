@@ -26,8 +26,10 @@ export default function MasonryImageList() {
         {projects.map((item) => (
           <ImageListItem key={item.title}>
             <Image
-              objectFit='cover'
-              width={248}
+              style={{
+                width: '100%',
+                height: 'auto',
+              }}
               src={item.img}
               alt={item.title}
               loading="lazy"

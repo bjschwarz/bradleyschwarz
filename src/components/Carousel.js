@@ -17,12 +17,14 @@ export default function StandardImageList({project}) {
           backgroundColor: theme.palette.background.default
         }}
       >
-      <ImageList cols={2} gap={8}>
+      <ImageList variant="masonry" cols={2} gap={8}>
         {project.additional_images.map((item) => (
           <ImageListItem key={item.title}>
             <Image
-                objectFit='cover'
-                width={500}
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                }}
                 src={item.img}
                 alt={item.title}
                 loading="lazy"

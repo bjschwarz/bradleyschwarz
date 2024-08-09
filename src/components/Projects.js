@@ -11,6 +11,10 @@ import wallsconce2 from "../../public/images/20240509_springrelease_073.jpg"
 
 import dryingrack1 from "../../public/images/20240509_springrelease_186.jpg"
 import dryingrack2 from "../../public/images/20240509_springrelease_166.jpg"
+import dryingrack3 from "../../public/images/20240428_dryingracks_088.jpg"
+import dryingrack4 from "../../public/images/20240509_springrelease_194.jpg"
+import dryingrack5 from "../../public/images/20240428_dryingracks_132.jpg"
+
 
 import candelabra1 from "../../public/images/20240513_candelabra_023.jpg"
 import candelabra2 from "../../public/images/20240513_candelabra_047.jpg"
@@ -21,9 +25,51 @@ import dividers1 from "../../public/images/20240209_portfolio_014 copy.jpg"
 import dividers2 from "../../public/images/20240209_portfolio_019 copy.jpg"
 import dividers3 from "../../public/images/20240209_portfolio_030 copy.jpg"
 
+import leafhook1 from "../../public/images/20240715_summerrelease_705.jpg"
+import leafhook2 from "../../public/images/20240715_summerrelease_672.jpg"
+
+import trivet1 from "../../public/images/20240715_summerrelease_653.jpg"
+import trivet2 from "../../public/images/20240715_summerrelease_660.jpg"
+import trivet3 from "../../public/images/20240715_summerrelease_664.jpg"
+
+
 
 const projects = [
 
+    {
+        img: leafhook1,
+        title: 'Leaf Hook',
+        additional_images: [
+            {   
+                title: 'Leaf Hook 1',
+                img: leafhook1
+            },
+            {   
+                title: 'Leaf Hook 2',
+                img: leafhook2
+            },
+        ],
+        description: "client project.."
+    },
+    {
+        img: trivet1,
+        title: 'Tri Leaf Trivet',
+        additional_images: [
+            {   
+                title: 'Trivet 1',
+                img: trivet1
+            },
+            {   
+                title: 'Trivet 2',
+                img: trivet2
+            },
+            {   
+                title: 'Trivet 3',
+                img: trivet3
+            },
+        ],
+        description: "client project.."
+    },
     {
         img: oakhook1,
         title: 'Oak Hook',
@@ -130,6 +176,18 @@ const projects = [
             {   
                 title: 'Drying Rack 2',
                 img: dryingrack2
+            },
+            {   
+                title: 'Drying Rack 3',
+                img: dryingrack3
+            },
+            {   
+                title: 'Drying Rack 4',
+                img: dryingrack4
+            },
+            {   
+                title: 'Drying Rack 5',
+                img: dryingrack5
             },
         ],
         description: "client project.."
