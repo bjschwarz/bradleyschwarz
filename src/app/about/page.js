@@ -13,6 +13,8 @@ import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import theme from '@/theme';
+import portrait from "../../../public/images/profile_image.jpg"
+import Image from 'next/image'
 
 export default function About() {
   const Item = styled(Box)(({ theme }) => ({
@@ -29,9 +31,15 @@ export default function About() {
         <Grid container spacing={4}>
           <Grid xs={12} md={6}>
             <Item elevation={0}>
-              <Box>
-                <Card variant="outlined">asd</Card>
-              </Box>
+              <Image
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                }}
+                src={portrait}
+                alt='logo'
+                loading="lazy"
+              />
             </Item>
           </Grid>
           <Grid xs={12} md={6}>

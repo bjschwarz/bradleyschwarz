@@ -37,7 +37,10 @@ export default function DrawerAppBar() {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <div sx={{ my: 4, ml: 2, }}>
         <Image
-          width={50}
+          style={{
+            width: '100%',
+            height: 'auto',
+          }}
           src={logo}
           alt='logo'
           loading="lazy"
