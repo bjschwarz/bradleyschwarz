@@ -17,6 +17,8 @@ import Image from 'next/image'
 import Carousel from '@/components/Carousel.js';
 import Box from '@mui/material/Box';
 import theme from '@/theme';
+import Grid from '@mui/material/Unstable_Grid2';
+import { styled } from '@mui/material/styles';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -36,13 +38,19 @@ export default function FullScreenDialog({ isDialogOpened, handleCloseDialog, pr
     handleCloseDialog(false);
   };
 
+  const Item = styled(Box)(({ theme }) => ({
+    padding: theme.spacing(1),
+  }));
+
   return (
     <React.Fragment>
       <Dialog
         fullScreen
         open={isDialogOpened}
         onClose={handleClose}
+        
       >
+        <Box sx={{backgroundColor: theme.palette.background.default, width: '100%',}}>
         <AppBar elevation={0} sx={{ position: 'relative', }}>
           <Toolbar elevation={0}>
             <IconButton
@@ -58,9 +66,22 @@ export default function FullScreenDialog({ isDialogOpened, handleCloseDialog, pr
             </Typography>
           </Toolbar>
         </AppBar>
-        <Box sx={{ backgroundColor: theme.palette.background.default, height: '100%' }}>
-          <Carousel project={project}></Carousel>
-        </Box>
+        
+          <Grid sx={{width:'100%'}} marginTop={2} container spacing={8}>
+            <Grid xs={12} md={7}>
+              <Item elevation={0}>
+                <Carousel project={project}></Carousel>
+              </Item>
+            </Grid>
+            <Grid xs={12} md={5}>
+              <Item elevation={0}>
+                <Typography variant="h5" sx={{ ml: 2 }}>
+                {project.description}
+                </Typography>
+              </Item>
+            </Grid>
+          </Grid>
+          </Box>
       </Dialog>
     </React.Fragment>
   );

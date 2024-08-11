@@ -9,20 +9,19 @@ export default function StandardImageList({project}) {
   return (
     <Box
         sx={{
-          my: 4,
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          backgroundColor: theme.palette.background.default
+          justifyContent: 'start',
+          alignItems: 'end',
         }}
       >
-      <ImageList variant="masonry" cols={2} gap={8}>
+      <ImageList variant="masonry" cols={1} gap={8}>
         {project.additional_images.map((item) => (
           <ImageListItem key={item.title}>
             <Image
                 style={{
                   width: '100%',
+                  maxWidth: '500px',
                   height: 'auto',
                 }}
                 src={item.img}

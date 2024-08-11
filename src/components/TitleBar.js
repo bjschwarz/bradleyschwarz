@@ -41,6 +41,7 @@ export default function DrawerAppBar() {
         <Image
           style={{
             width: '100%',
+            maxWidth: '100px',
             height: 'auto',
           }}
           src={logo}
@@ -81,7 +82,11 @@ export default function DrawerAppBar() {
             <MenuIcon />
           </IconButton>
           <Image
-            width={50}
+            style={{
+              width: '100%',
+              maxWidth: '50px',
+              height: 'auto',
+            }}
             src={logo}
             alt='logo'
             loading="lazy"

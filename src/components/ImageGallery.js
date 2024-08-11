@@ -29,6 +29,7 @@ export default function MasonryImageList() {
               style={{
                 width: '100%',
                 height: 'auto',
+                maxWidth: '500px'
               }}
               src={item.img}
               alt={item.title}

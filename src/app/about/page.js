@@ -25,9 +25,15 @@ export default function About() {
     <Container maxWidth="lg">
       <Box
         sx={{
-          mt: 12,
+          my: 4,
+          display: 'flex',
+          alignItems: 'center',
+          flexDirection: 'column',
         }}
       >
+        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
+          About
+        </Typography>
         <Grid container spacing={4}>
           <Grid xs={12} md={6}>
             <Item elevation={0}>

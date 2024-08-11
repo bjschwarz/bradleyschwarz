@@ -1,10 +1,10 @@
 'use client';
-import { Raleway } from 'next/font/google';
+import { Courier_Prime } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 import { Height } from '@mui/icons-material';
 
-const raleway = Raleway({
-  weight: ['300', '400', '500', '700'],
+const courier = Courier_Prime({
+  weight: ['400', '700'],
   subsets: ['latin'],
   display: 'swap',
 });
@@ -37,7 +37,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: raleway.style.fontFamily,
+    fontFamily: courier.style.fontFamily,
   },
   components: {
     MuiAlert: {
