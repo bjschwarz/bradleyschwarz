@@ -75,6 +75,10 @@ export default function FullScreenDialog({ isDialogOpened, handleCloseDialog, pr
             </Grid>
             <Grid xs={12} md={5}>
               <Item elevation={0}>
+              <Typography variant="h3" sx={{ ml: 2, mb:2 }}>
+                {project.title}
+                </Typography>
+
                 <Typography variant="h5" sx={{ ml: 2 }}>
                 {project.description}
                 </Typography>

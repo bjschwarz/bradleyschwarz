@@ -49,7 +49,7 @@ const projects = [
                 img: leafhook2
             },
         ],
-        description: "client project.."
+        description: "This hook was inspired by early medieval Gothic era ironwork, specifically the hinges of the Notre Dame Cathedral, using some of the same ancient techniques. I wanted to develop the process of creating these botantical motifs to use on more complex future work. There is an elegance and mastery to these shapes that I am only scratching the surface of."
     },
     {
         img: trivet1,
@@ -68,7 +68,7 @@ const projects = [
                 img: trivet3
             },
         ],
-        description: "client project.."
+        description: "This trivet was inspired by early medieval Gothic era ironwork, specifically the hinges of the Notre Dame Cathedral, using some of the same ancient techniques. I wanted to practice the techniques used to join multiple leaves together into the end of a \"branch\" using forge welding. This process would have been similar to how they would have accomplished this in ancient times."
     },
     {
         img: oakhook1,
@@ -91,7 +91,7 @@ const projects = [
                 img: oakhook4
             },
         ],
-        description: "client project.."
+        description: "These hooks where a commission from a client. They wanted an oak themed hook since they have many large oak trees on around their home. I was inspired by the gothic esque leafs on the andirons at the Biltmore estate. I liked the simplicity of the central stem. I took this idea further and made the stem become the base of the hook. Terminated in an acorn."
     },
     {
         img: candelabra1,
@@ -114,11 +114,11 @@ const projects = [
                 img: candelabra4
             },
         ],
-        description: "client project.."
+        description: "This project was based on an image I saw in the book Decorative Antique Ironwork. The image was of a 14th century candelabra. I specifically liked the integrated dragon head legs. The project was a combinated of sculpture and geometrical design which I am drawn to. The candelabra/candle stick was the main source of light at tables and rooms for hundreds of years. I am interested in exploring the design of how candle light was optimized and made beautiful in times past."
     },
     {
         img: dividers1,
-        title: 'Dividers',
+        title: 'Gothic Compass',
         additional_images: [
             {   
                 title: 'Dividers 1',
@@ -133,7 +133,7 @@ const projects = [
                 img: dividers3
             },
         ],
-        description: "client project.."
+        description: "I was inspired by mentor and fellow smith Tom Latane. Who made a pair of gothic dividers years ago. I also saw an image of similar dividers in the book Decorative Antique Ironwork. This was a challenging project. Since I first had to learn the proper process of making simple dividers. Tools have always been an extension of the hand for craftsman. I enjoy making tools beautiful in addition to functioning well. Tools made with this intention are a joy to use, and are often the ones kept for centuries."
     },
     {
         img: flowerhook1,
