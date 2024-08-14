@@ -8,6 +8,7 @@ import ProjectDetail from '@/components/ProjectDetail';
 import React, { useState, useEffect } from "react";
 import projects from '@/components/Projects';
 import Image from 'next/image'
+// import styles from '@/main.css';
 
 export default function MasonryImageList() {
   const router = useRouter()
@@ -25,6 +26,7 @@ export default function MasonryImageList() {
       <ImageList variant="masonry" cols={3} gap={8}>
         {projects.map((item) => (
           <ImageListItem key={item.title}>
+            {/* <div class="container"> */}
             <Image
               style={{
                 width: '100%',
@@ -36,6 +38,10 @@ export default function MasonryImageList() {
               loading="lazy"
               onClick={() => handleOpen(item)}
             />
+            {/* <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
+          </div> */}
           </ImageListItem>
         ))}
       </ImageList>

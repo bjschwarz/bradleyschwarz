@@ -19,9 +19,6 @@ export default function Gallery() {
           alignItems: 'center',
         }}
       >
-        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          Gallery
-        </Typography>
         <Box>
           <ImageGallery></ImageGallery>
         </Box>

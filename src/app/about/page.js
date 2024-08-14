@@ -31,9 +31,6 @@ export default function About() {
           flexDirection: 'column',
         }}
       >
-        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          About
-        </Typography>
         <Grid container spacing={4}>
           <Grid xs={12} md={6}>
             <Item elevation={0}>
@@ -58,8 +55,11 @@ export default function About() {
                 <Typography variant="h4" component="h2">
                   Bradley Schwarz is a artist metalsmith based in Durham North Carolina. 
                 </Typography>
-                <Typography variant="body" component="h2">
-                  I am facinated by the masterful works of antiquity. Before modern machine manufacturing, all work was done by hand with skill that was the result of years of practice and dedication. This is the mentality I was to bring to my work. 
+                <Typography variant="body" component="">
+                  After a bout with the possibility of graduate school, my spouse and I embarked on a several year journey of restoring a severely neglected home. I found a beauty in the simplicity of antique hand tools during this process. This discovery led me to the unmatched quality of antique cast iron machinery. After that, in order to supplement woodworking by making tools, I decided to dabble with forging. In a relatively short time I became obsessed. The combination of history, sculpture and practicality was exactly what I had been searching for in a medium.  
+                  </Typography>
+                  <Typography variant="body" component="">
+                  Before modern machine manufacturing, all work was done by hand with skill that was the result of years of practice and dedication. This is the mentality I strive to bring to my work. In addition to skill, craft and art were deeply interwoven. I love pondering the provocative imagery of the medieval craftsman and exploring similar symbols and designs that were both sacred and customary. I aim to reach the point where work is synonymous to play, and the inner and outer worlds are joined seamlessly together through hand skill.
                 </Typography>
               </Box>
             </Item>

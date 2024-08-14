@@ -18,9 +18,6 @@ export default function Contact() {
           alignItems: 'center',
         }}
       >
-        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          Contact
-        </Typography>
         <Box >
           <InputSlide/>
         </Box>
