@@ -35,7 +35,7 @@ export default function MasonryImageList() {
               }}
               src={item.img}
               alt={item.title}
-              loading="lazy"
+              loading="eager"
               onClick={() => handleOpen(item)}
             />
             {/* <div class="overlay">

@@ -26,7 +26,7 @@ export default function StandardImageList({project}) {
                 }}
                 src={item.img}
                 alt={item.title}
-                loading="lazy"
+                loading="eager"
               />
           </ImageListItem>
         ))}

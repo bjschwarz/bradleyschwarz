@@ -41,7 +41,7 @@ export default function About() {
                 }}
                 src={portrait}
                 alt='logo'
-                loading="lazy"
+                loading="eager"
               />
             </Item>
           </Grid>

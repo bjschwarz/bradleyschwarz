@@ -1,3 +1,6 @@
+// GO TO TINYPNG
+
+
 import oakhook1 from "../../public/images/20240625_whiteoakhooks_018.jpg"
 import oakhook2 from "../../public/images/20240625_whiteoakhooks_079.jpg"
 import oakhook3 from "../../public/images/20240625_whiteoakhooks_091.jpg"
