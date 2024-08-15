@@ -67,7 +67,7 @@ export default function About() {
                   I prefer to work with antique tools and belt-driven machinery. I use a 1912 German Söding Halbach anvil and a 1905 Buffalo Coal Forge. I enjoy the satisfaction of making my own tools when needed and restoring antique machines in disrepair. I plan to run my workshop from a line shaft belt system in the future.
                 </Typography>
                 <Typography variant="body" component="">
-                  Currently I am focused on exploring the intersection between modern practicality useful Items and early medieval designs. I am working on developing the processes used by early smiths to forge botanical and animal motifs, then incorporating them into my own designs.
+                  Currently I am focused on exploring the intersection between modern practically useful Items and early medieval designs. I am working on developing the processes used by early smiths to forge botanical and animal motifs, then incorporating them into my own designs.
 
                 </Typography>
                  
