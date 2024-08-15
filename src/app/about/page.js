@@ -56,11 +56,21 @@ export default function About() {
                   Bradley Schwarz is a artist metalsmith based in Durham North Carolina. 
                 </Typography>
                 <Typography variant="body" component="">
-                  After a bout with the possibility of graduate school, my spouse and I embarked on a several year journey of restoring a severely neglected home. I found a beauty in the simplicity of antique hand tools during this process. This discovery led me to the unmatched quality of antique cast iron machinery. After that, in order to supplement woodworking by making tools, I decided to dabble with forging. In a relatively short time I became obsessed. The combination of history, sculpture and practicality was exactly what I had been searching for in a medium.  
-                  </Typography>
-                  <Typography variant="body" component="">
-                  Before modern machine manufacturing, all work was done by hand with skill that was the result of years of practice and dedication. This is the mentality I strive to bring to my work. In addition to skill, craft and art were deeply interwoven. I love pondering the provocative imagery of the medieval craftsman and exploring similar symbols and designs that were both sacred and customary. I aim to reach the point where work is synonymous to play, and the inner and outer worlds are joined seamlessly together through hand skill.
+                  I am inspired by the elegant work of antiquity. Before modern machine manufacturing, blacksmiths forged their works using skills earned from years of practice and dedication to the craft. With nothing more than simple hand tools, which they also made themselves, these early smiths created some of the world's most awe-inspiring ironwork. This mentality, to achieve perfection with nothing but one's own hands, is what I strive to bring to my work. 
                 </Typography>
+                <Typography variant="body" component="">
+
+                  I could never have come as far as I have without the generosity of several mentors. Jerry Darnell taught me many of the fundamentals of blacksmithing. How to work quickly and efficiently, correct fire control, and forge welding. His patience and knowledge laid a foundation for me to build onto. Peter Ross instilled in me a critical eye for detail, striving to have clean forgings, and to theorize and consider the processes used by period smiths. I have also been inspired by the work of Tom Latané who places artistry and elegant design at the top of his priorities. 
+                </Typography>
+                <Typography variant="body" component="">
+
+                  I prefer to work with antique tools and belt-driven machinery. I use a 1912 German Söding Halbach anvil and a 1905 Buffalo Coal Forge. I enjoy the satisfaction of making my own tools when needed and restoring antique machines in disrepair. I plan to run my workshop from a line shaft belt system in the future.
+                </Typography>
+                <Typography variant="body" component="">
+                  Currently I am focused on exploring the intersection between modern practicality useful Items and early medieval designs. I am working on developing the processes used by early smiths to forge botanical and animal motifs, then incorporating them into my own designs.
+
+                </Typography>
+                 
               </Box>
             </Item>
           </Grid>     
