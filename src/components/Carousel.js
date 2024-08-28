@@ -19,6 +19,7 @@ export default function StandardImageList({project}) {
         {project.additional_images.map((item) => (
           <ImageListItem key={item.title}>
             <Image
+                priority={true}
                 style={{
                   width: '100%',
                   maxWidth: '500px',

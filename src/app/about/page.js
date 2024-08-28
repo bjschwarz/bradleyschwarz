@@ -56,7 +56,7 @@ export default function About() {
                   gap: 4
                 }}>
                 <Typography variant="h4" component="h2">
-                  Bradley Schwarz an artisan metalsmith based in Durham North Carolina. 
+                  Bradley Schwarz, an artisan metalsmith based in Durham North Carolina. 
                 </Typography>
                 <Typography variant="body" component="">
                   I am inspired by the elegant work of antiquity. Before modern machine manufacturing, blacksmiths forged their works using skills earned from years of practice and dedication to the craft. With nothing more than simple hand tools, which they also made themselves, these early smiths created some of the world's most awe-inspiring ironwork. This mentality, to achieve perfection with nothing but one's own hands, is what I strive to bring to my work. 
