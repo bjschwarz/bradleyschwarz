@@ -24,6 +24,7 @@ const drawerWidth = 240;
 
 const navItems = {
   gallery: {title: "Gallery", href : "/"},
+  drawings: {title: "Drawings", href : "/drawings"},
   about: {title: "About", href : "/about"},
   contact: {title: "Contact", href : "/contact"},
 }
