@@ -3,6 +3,7 @@
 
 import greenmanstudy from "../../public/images/GreenManStudy.jpg"
 import dragonandironstudy from "../../public/images/DragonAndironStudy.jpg"
+import frenchgothicandiron from "../../public/images/FrenchGothicAndiron.jpg"
 
 const drawings = [
 
@@ -16,6 +17,12 @@ const drawings = [
         img: dragonandironstudy,
         medium: 'Pen',
         title: 'Dragon Andiron Study',
+        description: " "
+    },
+    {
+        img: frenchgothicandiron,
+        medium: 'Pen',
+        title: 'French Gothic Andiron',
         description: " "
     },
 
