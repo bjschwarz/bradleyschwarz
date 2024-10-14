@@ -264,8 +264,7 @@ const projects = [
                 img: doorknocker7
             },
         ],
-        description: "This project began a few years ago in a class with Tom Latané. It started out as only the backplate of the door knocker. I recently picked it back up since I felt confident at my current forging skill level to finish the knocker and hardware. I pulled ideas from multiple examples of early to middle medieval door knockers to develop this design.
-"
+        description: "This project began a few years ago in a class with Tom Latané. It started out as only the backplate of the door knocker. I recently picked it back up since I felt confident at my current forging skill level to finish the knocker and hardware. I pulled ideas from multiple examples of early to middle medieval door knockers to develop this design."
     },
     {
         img: thumblatch1,
