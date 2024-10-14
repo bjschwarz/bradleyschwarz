@@ -125,9 +125,9 @@ import fireplacescreen1 from "../../public/images/20241009_portfolio_265_edited.
 
 import fireplacescreen2 from "../../public/images/20241009_portfolio_269.jpg"
 
-import fireplacescreen3 from "../../public/images/20241009_portfolio_272.jpg"
+import fireplacescreen3 from "../../public/images/20241009_portfolio_284.jpg"
 
-import fireplacescreen4 from "../../public/images/20241009_portfolio_284.jpg"
+import fireplacescreen4 from "../../public/images/20241009_portfolio_272.jpg"
 
 const projects = [
     {
@@ -156,7 +156,7 @@ const projects = [
                 img: smalllight5
             },
         ],
-        description: "A custom light fixture for a client who wanted a high quality handmade light with a modern look. I designed these by pulling elements from antique lights while maintaining a simple look and contemporary appeal."
+        description: "A custom light fixture for a client who wanted several high-quality handmade light fixtures with more modern lines. I designed these by incorporating elements from antique lights while maintaining simple structure and contemporary appeal. Four fixtures were built in different sizes using the same basic design."
     },
     {
         img: mediumlight1,
@@ -192,7 +192,7 @@ const projects = [
                 img: mediumlight7
             },
         ],
-        description: "A custom light fixture for a client who wanted a high quality handmade light with a modern look. I designed these by pulling elements from antique lights while maintaining a simple look and contemporary appeal."
+        description: "A custom light fixture for a client who wanted several high-quality handmade light fixtures with more modern lines. I designed these by incorporating elements from antique lights while maintaining simple structure and contemporary appeal. Four fixtures were built in different sizes using the same basic design."
     },
     {
         img: largelight1,
@@ -228,7 +228,7 @@ const projects = [
                 img: largelight7
             },
         ],
-        description: "A custom light fixture for a client who wanted a high quality handmade light with a modern look. I designed these by pulling elements from antique lights while maintaining a simple look and contemporary appeal. "
+        description: "A custom light fixture for a client who wanted several high-quality handmade light fixtures with more modern lines. I designed these by incorporating elements from antique lights while maintaining simple structure and contemporary appeal. Four fixtures were built in different sizes using the same basic design."
     },
     {
         img: doorknocker1,
@@ -264,7 +264,8 @@ const projects = [
                 img: doorknocker7
             },
         ],
-        description: "This project began a few years ago in a class with Tom Latané. It started out as only the backplate of the door knocker. I picked it back up recently since I felt confident I would have the forging skill needed to finish the knocker and hardware. I pulled ideas from multiple images of early to middle midieval door knockers to come up with this design."
+        description: "This project began a few years ago in a class with Tom Latané. It started out as only the backplate of the door knocker. I recently picked it back up since I felt confident at my current forging skill level to finish the knocker and hardware. I pulled ideas from multiple examples of early to middle medieval door knockers to develop this design.
+"
     },
     {
         img: thumblatch1,
@@ -288,7 +289,7 @@ const projects = [
                 img: thumblatch4
             }
         ],
-        description: "A thumb latch heaviliy inspired from one I saw in the book \"Early American Wrought Iron\". It has somewhat of a moravian gothic design. "
+        description: "A thumb latch heavily inspired by one I saw in the book \"Early American Wrought Iron\". The design has moravian gothic influence, which I am fond of."
     },
     {
         img: ceilingdryingrack1,
@@ -316,7 +317,7 @@ const projects = [
                 img: ceilingdryingrack5
             },
         ],
-        description: "This was a custom project for a client who wanted a forged overhead drying rack. After a little trial and error I desided on this double layered design to hold the multiple peices of wood. The layers are joined with a through rivet and suspended by pulleys from the ceiling. "
+        description: "This is a custom project for a client who wanted an overhead drying rack with hand-forged components. After a little trial and error, I decided on this double layered design to hold the multiple wood bars. The layers are joined by a through-rivet and suspended by pulleys from the ceiling.  "
     },
     {
         img: fireplacescreen1,
@@ -340,7 +341,7 @@ const projects = [
                 img: fireplacescreen4
             },
         ],
-        description: "This was a custom project for a client whom had a home with a vintage curved brick fireplace built by a master mason. The brickwork required matching curves in two planes. The client also wanted handles to remove the screen as needed. They wanted a clean design with a sprinkling of brass rivets to add some color. "
+        description: "This is a custom project for a client whose home features a vintage curved brick fireplace built by a master mason. The ironwork required matching curves in two planes. The client wanted incorporated handles to remove the screen as needed. They desired clean lines and a sprinkling of brass rivets to add some contrast."
     },
     {
         img: candelabra1,
@@ -388,7 +389,7 @@ const projects = [
                 img: brassface4
             },
         ],
-        description: "This repousse project was an anatomical study of the human face in brass. I wanted to learn how to render more realistic faces so I referenced some anatomical sculptures for this piece. The plate is designed to be mounted to a door or chest."
+        description: "This project utilized an ancient technique called chasing and repousse. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. The subject was an anatomical study of the human face in brass. I wanted to learn how to render more realistic faces so I referenced some anatomical sculptures for this piece. The plate is designed to be mounted to a door or chest."
     },
     
     {
@@ -610,7 +611,7 @@ const projects = [
                 img: brassgreenman4
             },
         ],
-        description: "This was my first attempt with chasing and repousse. Unfortunately I punched through the brass in a couple places since I had not learned the limitations of the medium or the importance of having tools with all smooth edges. Nevertheless I really enjoyed this project and it inspired me to continue doing repousse work."
+        description: "This was my first attempt with chasing and repousse. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. Unfortunately I punched through the brass in a couple places since I had not learned the limitations of the medium or the importance of having tools with all smooth edges. Nevertheless I really enjoyed this project and it inspired me to continue doing repousse work."
     },
     {
         img: twocandlechandelier1,
@@ -662,7 +663,7 @@ const projects = [
                 img: irongreenman5
             },
         ],
-        description: "This was my first attempt at chasing and repousse in steel. Moving cold steel by hand and hammer is much different than non-ferrous metals. I learned that I needed a bigger hammer with more force and frequent annealing to keep the metal soft enough to work. It gave me an appreciation for medieval armor smiths. I originally designed this to become a door knocker and I eventually will complete it."
+        description: "This was my first attempt at chasing and repousse in steel. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. Moving cold steel by hand and hammer is much different than non-ferrous metals. I learned that I needed a bigger hammer with more force and frequent annealing to keep the metal soft enough to work. It gave me an appreciation for medieval armor smiths. I originally designed this to become a door knocker and I eventually will complete it."
     },
     {
         img: leafhook1,
