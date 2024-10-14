@@ -79,8 +79,269 @@ import twocandlechandelier3 from "../../public/images/20240915_portfolio_177.jpg
 import twocandlechandelier4 from "../../public/images/20240915_portfolio_179.jpg"
 import twocandlechandelier5 from "../../public/images/20240915_portfolio_182.jpg"
 
-const projects = [
+import smalllight1 from "../../public/images/20241009_portfolio_140.jpg"
+import smalllight2 from "../../public/images/20241009_portfolio_145.jpg"
+import smalllight3 from "../../public/images/20241009_portfolio_160.jpg"
+import smalllight4 from "../../public/images/20241009_portfolio_163.jpg"
+import smalllight5 from "../../public/images/20241009_portfolio_173.jpg"
 
+import mediumlight1 from "../../public/images/20241009_portfolio_101_edited.jpg"
+import mediumlight2 from "../../public/images/20241009_portfolio_105.jpg"
+import mediumlight3 from "../../public/images/20241009_portfolio_109.jpg"
+import mediumlight4 from "../../public/images/20241009_portfolio_111.jpg"
+import mediumlight5 from "../../public/images/20241009_portfolio_135.jpg"
+import mediumlight6 from "../../public/images/20241009_portfolio_123.jpg"
+import mediumlight7 from "../../public/images/20241009_portfolio_119.jpg"
+
+import largelight1 from "../../public/images/20241009_portfolio_037_edited.jpg"
+import largelight2 from "../../public/images/20241009_portfolio_065.jpg"
+import largelight3 from "../../public/images/20241009_portfolio_071.jpg"
+import largelight4 from "../../public/images/20241009_portfolio_073.jpg"
+import largelight5 from "../../public/images/20241009_portfolio_076.jpg"
+import largelight6 from "../../public/images/20241009_portfolio_081.jpg"
+import largelight7 from "../../public/images/20241009_portfolio_086.jpg"
+
+import thumblatch1 from "../../public/images/20241009_portfolio_181.jpg"
+import thumblatch2 from "../../public/images/20241009_portfolio_187.jpg"
+import thumblatch3 from "../../public/images/20241009_portfolio_193.jpg"
+import thumblatch4 from "../../public/images/20241009_portfolio_200.jpg"
+
+
+import doorknocker1 from "../../public/images/20241009_portfolio_208.jpg"
+import doorknocker2 from "../../public/images/20241009_portfolio_215.jpg"
+import doorknocker3 from "../../public/images/20241009_portfolio_221.jpg"
+import doorknocker4 from "../../public/images/20241009_portfolio_226.jpg"
+import doorknocker5 from "../../public/images/20241009_portfolio_234.jpg"
+import doorknocker6 from "../../public/images/20241009_portfolio_240.jpg"
+import doorknocker7 from "../../public/images/20241009_portfolio_250.jpg"
+
+import ceilingdryingrack1 from "../../public/images/20241009_portfolio_008.jpg"
+import ceilingdryingrack2 from "../../public/images/20241009_portfolio_004_edited.jpg"
+import ceilingdryingrack3 from "../../public/images/20241009_portfolio_012.jpg"
+import ceilingdryingrack4 from "../../public/images/20241009_portfolio_019.jpg"
+import ceilingdryingrack5 from "../../public/images/20241009_portfolio_021.jpg"
+
+import fireplacescreen1 from "../../public/images/20241009_portfolio_265_edited.jpg"
+
+import fireplacescreen2 from "../../public/images/20241009_portfolio_269.jpg"
+
+import fireplacescreen3 from "../../public/images/20241009_portfolio_272.jpg"
+
+import fireplacescreen4 from "../../public/images/20241009_portfolio_284.jpg"
+
+const projects = [
+    {
+        img: smalllight1,
+        medium: 'Mild Steel',
+        title: 'Small Light',
+        additional_images: [
+            {   
+                title: 'Small Light 1',
+                img: smalllight1
+            },
+            {   
+                title: 'Small Light 2',
+                img: smalllight2
+            },
+            {   
+                title: 'Small Light 3',
+                img: smalllight3
+            },
+            {   
+                title: 'Small Light 4',
+                img: smalllight4
+            },
+            {   
+                title: 'Small Light 5',
+                img: smalllight5
+            },
+        ],
+        description: "A custom light fixture for a client who wanted a high quality handmade light with a modern look. I designed these by pulling elements from antique lights while maintaining a simple look and contemporary appeal."
+    },
+    {
+        img: mediumlight1,
+        medium: 'Mild Steel',
+        title: 'Medium Light',
+        additional_images: [
+            {   
+                title: 'Medium Light 1',
+                img: mediumlight1
+            },
+            {   
+                title: 'Medium Light 2',
+                img: mediumlight2
+            },
+            {   
+                title: 'Medium Light 3',
+                img: mediumlight3
+            },
+            {   
+                title: 'Medium Light 4',
+                img: mediumlight4
+            },
+            {   
+                title: 'Medium Light 5',
+                img: mediumlight5
+            },
+            {   
+                title: 'Medium Light 6',
+                img: mediumlight6
+            },
+            {   
+                title: 'Medium Light 7',
+                img: mediumlight7
+            },
+        ],
+        description: "A custom light fixture for a client who wanted a high quality handmade light with a modern look. I designed these by pulling elements from antique lights while maintaining a simple look and contemporary appeal."
+    },
+    {
+        img: largelight1,
+        medium: 'Mild Steel',
+        title: 'Large Light',
+        additional_images: [
+            {   
+                title: 'Large Light 1',
+                img: largelight1
+            },
+            {   
+                title: 'Large Light 2',
+                img: largelight2
+            },
+            {   
+                title: 'Large Light 3',
+                img: largelight3
+            },
+            {   
+                title: 'Large Light 4',
+                img: largelight4
+            },
+            {   
+                title: 'Large Light 5',
+                img: largelight5
+            },
+            {   
+                title: 'Large Light 6',
+                img: largelight6
+            },
+            {   
+                title: 'Large Light 7',
+                img: largelight7
+            },
+        ],
+        description: "A custom light fixture for a client who wanted a high quality handmade light with a modern look. I designed these by pulling elements from antique lights while maintaining a simple look and contemporary appeal. "
+    },
+    {
+        img: doorknocker1,
+        medium: 'Mild Steel',
+        title: 'Gothic Door Knocker',
+        additional_images: [
+            {   
+                title: 'Gothic Door Knocker 1',
+                img: doorknocker1
+            },
+            {   
+                title: 'Gothic Door Knocker 2',
+                img: doorknocker2
+            },
+            {   
+                title: 'Gothic Door Knocker 3',
+                img: doorknocker3
+            },
+            {   
+                title: 'Gothic Door Knocker 4',
+                img: doorknocker4
+            },
+            {   
+                title: 'Gothic Door Knocker 5',
+                img: doorknocker5
+            },
+            {   
+                title: 'Gothic Door Knocker 6',
+                img: doorknocker6
+            },
+            {   
+                title: 'Gothic Door Knocker 7',
+                img: doorknocker7
+            },
+        ],
+        description: "This project began a few years ago in a class with Tom Latané. It started out as only the backplate of the door knocker. I picked it back up recently since I felt confident I would have the forging skill needed to finish the knocker and hardware. I pulled ideas from multiple images of early to middle midieval door knockers to come up with this design."
+    },
+    {
+        img: thumblatch1,
+        medium: 'Mild Steel',
+        title: 'Thumb Latch',
+        additional_images: [
+            {   
+                title: 'Thumb Latch 1',
+                img: thumblatch1
+            },
+            {   
+                title: 'Thumb Latch 2',
+                img: thumblatch2
+            },
+            {   
+                title: 'Thumb Latch 3',
+                img: thumblatch3
+            },
+            {   
+                title: 'Thumb Latch 4',
+                img: thumblatch4
+            }
+        ],
+        description: "A thumb latch heaviliy inspired from one I saw in the book \"Early American Wrought Iron\". It has somewhat of a moravian gothic design. "
+    },
+    {
+        img: ceilingdryingrack1,
+        medium: 'Mild Steel, White Oak',
+        title: 'Ceiling Drying Rack',
+        additional_images: [
+            {   
+                title: 'Ceiling Drying Rack 1',
+                img: ceilingdryingrack1
+            },
+            {   
+                title: 'Ceiling Drying Rack 2',
+                img: ceilingdryingrack2
+            },
+            {   
+                title: 'Ceiling Drying Rack 3',
+                img: ceilingdryingrack3
+            },
+            {   
+                title: 'Ceiling Drying Rack 4',
+                img: ceilingdryingrack4
+            },
+            {   
+                title: 'Ceiling Drying Rack 5',
+                img: ceilingdryingrack5
+            },
+        ],
+        description: "This was a custom project for a client who wanted a forged overhead drying rack. After a little trial and error I desided on this double layered design to hold the multiple peices of wood. The layers are joined with a through rivet and suspended by pulleys from the ceiling. "
+    },
+    {
+        img: fireplacescreen1,
+        medium: 'Mild Steel',
+        title: 'Fireplace Screen',
+        additional_images: [
+            {   
+                title: 'Fireplace Screen 1',
+                img: fireplacescreen1
+            },
+            {   
+                title: 'Fireplace Screen 2',
+                img: fireplacescreen2
+            },
+            {   
+                title: 'Fireplace Screen 3',
+                img: fireplacescreen3
+            },
+            {   
+                title: 'Fireplace Screen 4',
+                img: fireplacescreen4
+            },
+        ],
+        description: "This was a custom project for a client whom had a home with a vintage curved brick fireplace built by a master mason. The brickwork required matching curves in two planes. The client also wanted handles to remove the screen as needed. They wanted a clean design with a sprinkling of brass rivets to add some color. "
+    },
     {
         img: candelabra1,
         medium: 'Mild Steel',
