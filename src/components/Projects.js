@@ -187,10 +187,6 @@ const projects = [
                 title: 'Medium Light 6',
                 img: mediumlight6
             },
-            {   
-                title: 'Medium Light 7',
-                img: mediumlight7
-            },
         ],
         description: "A custom light fixture for a client who wanted several high-quality handmade light fixtures with more modern lines. I designed these by incorporating elements from antique lights while maintaining simple structure and contemporary appeal. Four fixtures were built in different sizes using the same basic design."
     },
@@ -218,10 +214,6 @@ const projects = [
             {   
                 title: 'Large Light 5',
                 img: largelight5
-            },
-            {   
-                title: 'Large Light 6',
-                img: largelight6
             },
             {   
                 title: 'Large Light 7',
