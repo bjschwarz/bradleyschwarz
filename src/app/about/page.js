@@ -15,6 +15,8 @@ import { styled } from '@mui/material/styles';
 import theme from '@/theme';
 import portrait from "../../../public/images/profile_image.jpg"
 import Image from 'next/image'
+import TitleBar from '@/components/TitleBar';
+
 
 export default function About() {
   const Item = styled(Box)(({ theme }) => ({
@@ -23,6 +25,7 @@ export default function About() {
 
   return (
     <Container maxWidth="lg">
+      <TitleBar></TitleBar>
       <Box
         sx={{
           my: 4,

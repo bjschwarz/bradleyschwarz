@@ -6,10 +6,13 @@ import Button from '@mui/material/Button';
 import NextLink from 'next/link';
 import Copyright from '@/components/Copyright';
 import ImageGallery from '@/components/ImageGallery';
+import TitleBar from '@/components/TitleBar';
+
 
 export default function Gallery() {
   return (
-    <Container maxWidth="lg">
+    <Container sx={{paddingTop: '64px'}} maxWidth="lg">
+      <TitleBar></TitleBar>
       <Box
         sx={{
           my: 4,
@@ -21,6 +24,9 @@ export default function Gallery() {
       >
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
           Gallery
+        </Typography>
+        <Typography variant="body" component="h4" sx={{ mb: 0 }}>
+          *Click for additional images
         </Typography>
         <Box>
           <ImageGallery></ImageGallery>

@@ -9,10 +9,13 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import drawings from '@/components/Drawings';
 import Image from 'next/image'
+import TitleBar from '@/components/TitleBar';
+
 
 export default function Drawings() {
   return (
-    <Container maxWidth="lg">
+    <Container sx={{paddingTop: '64px'}} maxWidth="lg">
+      <TitleBar></TitleBar>
       <Box
         sx={{
           my: 4,

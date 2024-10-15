@@ -5,10 +5,13 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import NextLink from 'next/link';
 import InputSlide from '@/components/InputSlide';
+import TitleBar from '@/components/TitleBar';
+
 
 export default function Contact() {
   return (
-    <Container maxWidth="lg">
+    <Container sx={{paddingTop: '64px'}} maxWidth="lg">
+      <TitleBar></TitleBar>
       <Box
         sx={{
           my: 4,

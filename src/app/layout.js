@@ -5,7 +5,6 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from '@/theme';
-import TitleBar from '@/components/TitleBar';
 import Box from '@mui/material/Box';
 import { Padding } from '@mui/icons-material';
 import { GlobalStyles } from '@mui/material';
@@ -36,8 +35,7 @@ export default function RootLayout(props) {
                 // ... You can add more global styles here
               })}
             />
-            <TitleBar></TitleBar>
-            <Box sx={{paddingTop: '64px', display: 'flex',
+            <Box sx={{ display: 'flex',
           flexDirection: 'column',
           minHeight: '100vh', }}>
               {props.children}
