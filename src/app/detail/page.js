@@ -21,6 +21,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import { useSearchParams, useRouter } from 'next/navigation'
 import projects from '@/components/Projects';
+import {Suspense} from "react";
 
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -37,7 +38,7 @@ export default function Detail({}) {
   }));
 
   return (
-
+    <Suspense>
     <Box sx={{backgroundColor: theme.palette.background.default, width: '100%',}}>
     <AppBar elevation={0} sx={{ position: 'relative', }}>
         <Toolbar elevation={0}>
@@ -78,6 +79,6 @@ export default function Detail({}) {
         </Grid>
         </Grid>
         </Box>
-
+        </Suspense>
   );
 }
