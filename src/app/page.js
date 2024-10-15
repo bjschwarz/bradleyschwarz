@@ -26,7 +26,7 @@ export default function Gallery() {
           Gallery
         </Typography>
         <Typography variant="body" component="h4" sx={{ mb: 0 }}>
-          *Click for additional images
+          *Click images for additional detail
         </Typography>
         <Box>
           <ImageGallery></ImageGallery>
