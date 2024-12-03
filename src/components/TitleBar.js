@@ -23,8 +23,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const drawerWidth = 240;
 
 const navItems = {
-  gallery: {title: "Gallery", href : "/"},
-  drawings: {title: "Drawings", href : "/drawings"},
+  home: {title: "Home", href : "/"},
+  gallery: {title: "Gallery", href : "/gallery"},
+  drawings: {title: "Concepts", href : "/drawings"},
   about: {title: "About", href : "/about"},
   contact: {title: "Contact", href : "/contact"},
 }

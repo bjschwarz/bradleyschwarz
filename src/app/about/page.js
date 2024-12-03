@@ -24,7 +24,7 @@ export default function About() {
   }));
 
   return (
-    <Container maxWidth="lg">
+    <Container sx={{paddingTop: '64px'}} maxWidth="lg">
       <TitleBar></TitleBar>
       <Box
         sx={{

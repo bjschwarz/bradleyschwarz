@@ -14,13 +14,13 @@ import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
 import React, { useState, useEffect } from "react";
 import Image from 'next/image'
-import Carousel from '@/components/Carousel.js';
+import DetailImages from '@/components/DetailImages';
 import Box from '@mui/material/Box';
 import theme from '@/theme';
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import { useSearchParams, useRouter } from 'next/navigation'
-import projects from '@/components/Projects';
+import {projects} from '@/components/Projects';
 
 
 export default function Detail({}) {
@@ -53,7 +53,7 @@ export default function Detail({}) {
         <Grid sx={{width:'100%'}} marginTop={2} container spacing={8}>
         <Grid xs={12} md={7}>
             <Item elevation={0}>
-            <Carousel project={project}></Carousel>
+            <DetailImages project={project}></DetailImages>
             </Item>
         </Grid>
         <Grid xs={12} md={5}>

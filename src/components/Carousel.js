@@ -1,37 +1,30 @@
-import * as React from 'react';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+import {detailImages}  from "@/components/Projects.js";
+import Carousel from 'react-material-ui-carousel'
 import Image from 'next/image'
-import Box from '@mui/material/Box';
-import theme from '@/theme';
 
-export default function StandardImageList({project}) {
+export default function ResponsiveCarousel() {
   return (
-    <Box
-        sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'start',
-          alignItems: 'end',
-        }}
+    <div >
+      <Carousel
+       sx={{ width: 'auto',
+        height: '700px', 
+        position: 'relative',
+        backgroundColor: "#272727",
+        borderRadius: "10px"
+      }}
       >
-      <ImageList variant="masonry" cols={1} gap={8}>
-        {project.additional_images.map((item) => (
-          <ImageListItem key={item.title}>
+        {detailImages.map((item) => (
+          <div key={item}>
             <Image
-                priority={true}
-                style={{
-                  width: '100%',
-                  maxWidth: '500px',
-                  height: 'auto',
-                }}
-                src={item.img}
-                alt={item.title}
+                layout="fill"
+                src={item}
+                alt='logo'
+                objectFit="contain"
                 loading="eager"
               />
-          </ImageListItem>
+          </div>
         ))}
-      </ImageList>
-    </Box>
+      </Carousel>
+    </div>
   );
 }

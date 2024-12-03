@@ -5,7 +5,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { useRouter } from 'next/navigation'
 import React, { useState, useEffect } from "react";
-import projects from '@/components/Projects';
+import {projects} from '@/components/Projects';
 import Image from 'next/image'
 import styles from './ImageGallery.module.css';
 import Link from 'next/link';
