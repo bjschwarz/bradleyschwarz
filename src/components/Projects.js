@@ -427,22 +427,22 @@ const projects = [
         ],
         description: "These hooks were a commission for a client. They wanted an oak-themed hooks for the entryway of their home that is shaded by a magnificent white oak tree. I found inspiration for the project in gothic-style leaves on the andirons at the Biltmore Estate. I appreciated their simplicity of the central stems. The simple stems made for an elegant leaf free of distraction. The stem then curves to make the base of the hook and terminates in an acorn. "
     },
-    {
-        img: flowerhook1,
-        medium: 'Mild Steel',
-        title: 'Flower Hook',
-        additional_images: [
-            {   
-                title: 'Flower Hook 1',
-                img: flowerhook1
-            },
-            {   
-                title: 'Flower Hook 2',
-                img: flowerhook2
-            },
-        ],
-        description: "This hook was inspired by early medieval Gothic-era ironwork, specifically the hinges of the Notre Dame Cathedral. I wanted to develop the process of creating these botanical motifs, using some of the same ancient techniques, to use on more complex future work. There is an elegance and mastery to these shapes that I am only scratching the surface of."
-    },
+    // {
+    //     img: flowerhook1,
+    //     medium: 'Mild Steel',
+    //     title: 'Flower Hook',
+    //     additional_images: [
+    //         {   
+    //             title: 'Flower Hook 1',
+    //             img: flowerhook1
+    //         },
+    //         {   
+    //             title: 'Flower Hook 2',
+    //             img: flowerhook2
+    //         },
+    //     ],
+    //     description: "This hook was inspired by early medieval Gothic-era ironwork, specifically the hinges of the Notre Dame Cathedral. I wanted to develop the process of creating these botanical motifs, using some of the same ancient techniques, to use on more complex future work. There is an elegance and mastery to these shapes that I am only scratching the surface of."
+    // },
     
     
     {
@@ -604,34 +604,34 @@ const projects = [
         ],
         description: "This was my first attempt with chasing and repousse. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. Unfortunately I punched through the brass in a couple places since I had not learned the limitations of the medium or the importance of having tools with all smooth edges. Nevertheless I really enjoyed this project and it inspired me to continue doing repousse work."
     },
-    {
-        img: twocandlechandelier1,
-        medium: 'mild steel',
-        title: 'Two Candle Chandelier',
-        additional_images: [
-            {   
-                title: 'Two Candle Chandelier 1',
-                img: twocandlechandelier1
-            },
-            {   
-                title: 'Two Candle Chandelier 2',
-                img: twocandlechandelier2
-            },
-            {   
-                title: 'Two Candle Chandelier 3',
-                img: twocandlechandelier3
-            },
-            {   
-                title: 'Two Candle Chandelier 4',
-                img: twocandlechandelier4
-            },
-            {   
-                title: 'Two Candle Chandelier 5',
-                img: twocandlechandelier5
-            },
-        ],
-        description: "Tom Latané made a very similar two candle chandelier. I thought the design was fantastic and featured numerous types of forging that I had never done before. The scrolls were especially hard for me at the time. I learned the importance of having quality scrolling tongs that don't bend when twisting."
-    },
+    // {
+    //     img: twocandlechandelier1,
+    //     medium: 'mild steel',
+    //     title: 'Two Candle Chandelier',
+    //     additional_images: [
+    //         {   
+    //             title: 'Two Candle Chandelier 1',
+    //             img: twocandlechandelier1
+    //         },
+    //         {   
+    //             title: 'Two Candle Chandelier 2',
+    //             img: twocandlechandelier2
+    //         },
+    //         {   
+    //             title: 'Two Candle Chandelier 3',
+    //             img: twocandlechandelier3
+    //         },
+    //         {   
+    //             title: 'Two Candle Chandelier 4',
+    //             img: twocandlechandelier4
+    //         },
+    //         {   
+    //             title: 'Two Candle Chandelier 5',
+    //             img: twocandlechandelier5
+    //         },
+    //     ],
+    //     description: "Tom Latané made a very similar two candle chandelier. I thought the design was fantastic and featured numerous types of forging that I had never done before. The scrolls were especially hard for me at the time. I learned the importance of having quality scrolling tongs that don't bend when twisting."
+    // },
     {
         img: irongreenman1,
         medium: 'Mild Steel',
@@ -656,22 +656,22 @@ const projects = [
         ],
         description: "This was my first attempt at chasing and repousse in steel. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. Moving cold steel by hand and hammer is much different than non-ferrous metals. I learned that I needed a bigger hammer with more force and frequent annealing to keep the metal soft enough to work. It gave me an appreciation for medieval armor smiths. I originally designed this to become a door knocker and I eventually will complete it."
     },
-    {
-        img: leafhook1,
-        medium: 'Mild Steel',
-        title: 'Leaf Hook',
-        additional_images: [
-            {   
-                title: 'Leaf Hook 1',
-                img: leafhook1
-            },
-            {   
-                title: 'Leaf Hook 2',
-                img: leafhook2
-            },
-        ],
-        description: "This hook was inspired by early medieval Gothic-era ironwork, specifically the hinges of the Notre Dame Cathedral. I wanted to develop the process of creating these botanical motifs, using some of the same ancient techniques, to use on more complex future work. There is an elegance and mastery to these shapes that I am only scratching the surface of."
-    },
+    // {
+    //     img: leafhook1,
+    //     medium: 'Mild Steel',
+    //     title: 'Leaf Hook',
+    //     additional_images: [
+    //         {   
+    //             title: 'Leaf Hook 1',
+    //             img: leafhook1
+    //         },
+    //         {   
+    //             title: 'Leaf Hook 2',
+    //             img: leafhook2
+    //         },
+    //     ],
+    //     description: "This hook was inspired by early medieval Gothic-era ironwork, specifically the hinges of the Notre Dame Cathedral. I wanted to develop the process of creating these botanical motifs, using some of the same ancient techniques, to use on more complex future work. There is an elegance and mastery to these shapes that I am only scratching the surface of."
+    // },
     
 
     {
