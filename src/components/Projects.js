@@ -122,14 +122,196 @@ import ceilingdryingrack4 from "../../public/images/20241009_portfolio_019.jpg"
 import ceilingdryingrack5 from "../../public/images/20241009_portfolio_021.jpg"
 
 import fireplacescreen1 from "../../public/images/20241009_portfolio_265_edited.jpg"
-
 import fireplacescreen2 from "../../public/images/20241009_portfolio_269.jpg"
-
 import fireplacescreen3 from "../../public/images/20241009_portfolio_284.jpg"
-
 import fireplacescreen4 from "../../public/images/20241009_portfolio_272.jpg"
 
+import boxstand1 from "../../public/images/20241219_portfolio_0073.jpg"
+import boxstand2 from "../../public/images/20241219_portfolio_0029.jpg"
+import boxstand3 from "../../public/images/20241219_portfolio_0087.jpg"
+import boxstand4 from "../../public/images/20241219_portfolio_0102.jpg"
+
+import woodenfigurestand1 from "../../public/images/20241219_portfolio_0133.jpg"
+import woodenfigurestand2 from "../../public/images/20241219_portfolio_0683.jpg"
+import woodenfigurestand3 from "../../public/images/20241219_portfolio_0667.jpg"
+
+import frenchtoolstand1 from "../../public/images/20241219_portfolio_0401.jpg"
+import frenchtoolstand2 from "../../public/images/20241219_portfolio_0269.jpg"
+import frenchtoolstand3 from "../../public/images/20241219_portfolio_0290.jpg"
+import frenchtoolstand4 from "../../public/images/20241219_portfolio_0335.jpg"
+import frenchtoolstand5 from "../../public/images/20241219_portfolio_0310.jpg"
+import frenchtoolstand6 from "../../public/images/20241219_portfolio_0480.jpg"
+import frenchtoolstand7 from "../../public/images/20241219_portfolio_0569.jpg"
+import frenchtoolstand8 from "../../public/images/20241219_portfolio_0586.jpg"
+import frenchtoolstand9 from "../../public/images/20241219_portfolio_0613.jpg"
+import frenchtoolstand10 from "../../public/images/20241219_portfolio_0637.jpg"
+
+import gothicpull1 from "../../public/images/20241219_portfolio_0786.jpg"
+import gothicpull2 from "../../public/images/20241219_portfolio_0937.jpg"
+
+import gothichinge1 from "../../public/images/20241219_portfolio_0944.jpg"
+
+import keyplate1 from "../../public/images/20241219_portfolio_1022.jpg"
+
+import brassringpulls1 from "../../public/images/20241219_portfolio_1052.jpg"
+import brassringpulls2 from "../../public/images/20241219_portfolio_1098.jpg"
+
 const projects = [
+    {
+        img: boxstand1,
+        medium: 'Mild Steel',
+        title: 'Box Stand',
+        additional_images: [
+            {   
+                title: 'Box Stand 1',
+                img: boxstand1
+            },
+            {   
+                title: 'Box Stand 2',
+                img: boxstand2
+            },
+            {   
+                title: 'Box Stand 3',
+                img: boxstand3
+            },
+            {   
+                title: 'Box Stand 4',
+                img: boxstand4
+            },
+            
+        ],
+        description: ""
+    },
+    {
+        img: woodenfigurestand1,
+        medium: 'Mild Steel',
+        title: 'Wooden Figure Stand',
+        additional_images: [
+            {   
+                title: 'Wooden Figure Stand 1',
+                img: woodenfigurestand1
+            },
+            {   
+                title: 'Wooden Figure Stand 2',
+                img: woodenfigurestand2
+            },
+            {   
+                title: 'Wooden Figure Stand 3',
+                img: woodenfigurestand3
+            },
+            
+        ],
+        description: ""
+    },
+    {
+        img: frenchtoolstand1,
+        medium: 'Mild Steel',
+        title: 'French Tool Stand',
+        additional_images: [
+            {   
+                title: 'French Tool Stand1',
+                img: frenchtoolstand1
+            },
+            {   
+                title: 'French Tool Stand2',
+                img: frenchtoolstand2
+            },
+            {   
+                title: 'French Tool Stand3',
+                img: frenchtoolstand3
+            },
+            {   
+                title: 'French Tool Stand4',
+                img: frenchtoolstand4
+            },
+            {   
+                title: 'French Tool Stand5',
+                img: frenchtoolstand5
+            },
+            {   
+                title: 'French Tool Stand6',
+                img: frenchtoolstand6
+            },
+            {   
+                title: 'French Tool Stand7',
+                img: frenchtoolstand7
+            },
+            {   
+                title: 'French Tool Stand8',
+                img: frenchtoolstand8
+            },
+            {   
+                title: 'French Tool Stand9',
+                img: frenchtoolstand9
+            },
+            {   
+                title: 'French Tool Stand10',
+                img: frenchtoolstand10
+            },
+            
+        ],
+        description: ""
+    },
+    {
+        img: gothicpull1,
+        medium: 'Mild Steel',
+        title: 'Gothic Pull',
+        additional_images: [
+            {   
+                title: 'Gothic Pull 1',
+                img: gothicpull1
+            },
+            {   
+                title: 'Gothic Pull 2',
+                img: gothicpull2
+            },
+            
+        ],
+        description: ""
+    },
+    {
+        img: gothichinge1,
+        medium: 'Mild Steel',
+        title: 'Gothic Hinge',
+        additional_images: [
+            {   
+                title: 'Gothic Hinge',
+                img: gothichinge1
+            },
+            
+        ],
+        description: ""
+    },
+    {
+        img: keyplate1,
+        medium: 'Mild Steel',
+        title: 'Escutcheon',
+        additional_images: [
+            {   
+                title: 'Escutcheon',
+                img: keyplate1
+            },
+            
+        ],
+        description: ""
+    },
+    {
+        img: brassringpulls1,
+        medium: 'brass',
+        title: 'Brass Ring Pulls',
+        additional_images: [
+            {   
+                title: 'Brass Ring Pulls 1',
+                img: brassringpulls1
+            },
+            {   
+                title: 'Brass Ring Pulls 2',
+                img: brassringpulls2
+            },
+            
+        ],
+        description: ""
+    },
     {
         img: smalllight1,
         medium: 'Mild Steel',
