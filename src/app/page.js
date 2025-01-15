@@ -54,12 +54,12 @@ export default function Home() {
 
           <Typography sx={{
             display: { xs: 'none', sm: 'block' }, textTransform: 'uppercase'}} color="primary" variant="h6">
-          <i>Documenting pregnancy, homebirth, & postpartum for women and families in central NC</i>
+          <i>Hardware • Lighting • Art • Fireplace • Architectural • Reproduction • Restoration</i>
           </Typography>
 
           <Typography sx={{
             display: {  sm: 'none', md: 'none', lg: 'none' }, textTransform: 'uppercase'}} color="primary" variant="body">
-          <i>Documenting pregnancy, homebirth, & postpartum for women and families in central NC</i>
+          <i>Hardware • Lighting • Art • Fireplace • Architectural • Reproduction • Restoration</i>
           </Typography>
         </Box>
 
@@ -68,15 +68,16 @@ export default function Home() {
         </Typography>
 
         <Typography variant="body" component="">
-        I offer both video & photo imagery to preserve precious memories along your motherhood journey. From portraits of your growing belly, to the unique story of your homebirth, and of course the beloved fresh newborn session, you will be seen in your splendor. Based in Durham, serving the Triangle area, Raleigh, Chapel Hill, Cary, Hillsborough, etc.
+        I specialize in artisan quality ironwork, greatly influenced from present and past masters. My aim is to craft new works using traditional methods while observing and evolving the inspiring masterpieces of the ages. This mentality is applied to create custom designs for specific projects, as well as seemlessly matching historic works.  
         </Typography>
         <Carousel></Carousel>
         <Typography variant="body">
-        <b>blah</b><br/>
-        blah 
+
+        <Typography variant="h4">
+        <b>About</b>
         </Typography>
-
-
+        ??
+        </Typography>
 
         <Box sx={{
                  paddingTop: '30px',
@@ -85,9 +86,11 @@ export default function Home() {
                  textAlign: 'center',
                  borderRadius: '10px'
                 }}>
-
+          <Typography color='primary' variant="h6" paddingBottom={"20px"}>
+          Ready to get started? Tell me more about your project.
+          </Typography>
           <Typography  variant="h6">
-          <Button size='large' variant='outlined' color='primary' href='https://docs.google.com/forms/d/12W7H8DgLQ1iJb03keb_bJhkgMpZAmQHyotRfR2NKnM8/edit'>Reservation Form</Button>
+          <Button size='large' variant='outlined' color='primary' href='https://docs.google.com/forms/d/e/1FAIpQLScklFzqFSGL-NO8zURQed83qXA1TJYo1UkqbhVkSXaQK4GTCA/viewform?usp=sf_link'>Custom Ironwork Commission Inquiry Form</Button>
           </Typography>
         </Box>
 

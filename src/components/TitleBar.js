@@ -86,7 +86,7 @@ export default function DrawerAppBar() {
           <Image
             style={{
               width: '100%',
-              maxWidth: '50px',
+              maxWidth: '70px',
               height: 'auto',
             }}
             src={logo}
@@ -95,9 +95,8 @@ export default function DrawerAppBar() {
             sx={{ display: { xs: 'none', sm: 'block' } }}
           />
           <Typography
-            variant="h6"
             component="div"
-            sx={{ ml:2, flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ ml:2, fontSize: '30px', flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
             Bradley Schwarz Studio
           </Typography>
@@ -106,7 +105,7 @@ export default function DrawerAppBar() {
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           <IconButton href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
             {Object.entries(navItems).map(([key, value]) => (
-              <Button href={value.href} key={value.title} color='secondary'>
+              <Button size='large' href={value.href} key={value.title} color='secondary'>
                 {value.title}
               </Button>
             ))}

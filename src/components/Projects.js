@@ -164,7 +164,10 @@ const detailImages = [
     brassface1,
     crablock1,
     dryingrack2,
-    candelabra2
+    candelabra2,
+    brassringpulls1,
+    frenchtoolstand1,
+    gothichinge1,
 ]
 
 const projects = [
