@@ -74,7 +74,7 @@ export default function DrawerAppBar() {
     <Box>
       <CssBaseline />
 
-        <Box sx={{  justifyContent: 'center', alignItems: 'center', zIndex: '2' }}>
+        <Box sx={{  justifyContent: 'center', alignItems: 'center', zIndex: '2', backgroundColor: '#111'}}>
             <div className={styles.container}>
             <video playsInline width="100%" height="auto" autoPlay loop muted>
                 <source src="/header.mp4" type="video/mp4" />
