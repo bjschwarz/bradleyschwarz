@@ -103,12 +103,12 @@ export default function DrawerAppBar() {
 
           
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-          <IconButton href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
             {Object.entries(navItems).map(([key, value]) => (
               <Button style={{ width: 120, height: 50, fontSize:20 }} href={value.href} key={value.title} color='secondary'>
                     {value.title}
                 </Button>
             ))}
+            <IconButton color='secondary' href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
           </Box>
           
         </Toolbar>

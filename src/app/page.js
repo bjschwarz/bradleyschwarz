@@ -73,9 +73,6 @@ export default function Home() {
                  textAlign: 'center',
                  borderRadius: '10px'
                 }}>
-          <Typography color='primary' variant="h6" paddingBottom={"20px"}>
-          Ready to get started? Tell me more about your project.
-          </Typography>
           <Typography  variant="h6">
           <Button size='large' variant='outlined' color='primary' href='https://docs.google.com/forms/d/e/1FAIpQLScklFzqFSGL-NO8zURQed83qXA1TJYo1UkqbhVkSXaQK4GTCA/viewform?usp=sf_link'>Custom Ironwork Commission Inquiry Form</Button>
           </Typography>

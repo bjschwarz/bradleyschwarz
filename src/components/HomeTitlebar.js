@@ -71,7 +71,7 @@ export default function DrawerAppBar() {
   );
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box>
       <CssBaseline />
 
         <Box sx={{  justifyContent: 'center', alignItems: 'center', zIndex: '2' }}>
@@ -82,20 +82,20 @@ export default function DrawerAppBar() {
             </video>
             <div className={styles.top_left}>
                 
-                <Box sx={{ display: 'flex' }}>
-                <IconButton
-                    color="inherit"
-                    aria-label="open drawer"
-                    edge="start"
-                    onClick={handleDrawerToggle}
-                    sx={{ mr: 2, display: { sm: 'none' } }}
-                >
-                    <MenuIcon />
-                </IconButton>
+                <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                    <IconButton
+                        color="inherit"
+                        aria-label="open drawer"
+                        edge="start"
+                        onClick={handleDrawerToggle}
+                        sx={{ mr: 2, display: { sm: 'none' } }}
+                    >
+                        <MenuIcon />
+                    </IconButton>
                     <Image
                     style={{
                     width: '100%',
-                    maxWidth: '70px',
+                    maxWidth: '80px',
                     height: 'auto',
                     }}
                     src={logoInverted}
@@ -114,17 +114,17 @@ export default function DrawerAppBar() {
             <div className={styles.top_right}>
             
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            <IconButton color='primary' href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
                 {Object.entries(navItems).map(([key, value]) => (
-                <Button style={{ width: 120, height: 50, fontSize:20 }} href={value.href} key={value.title} color='primary'>
+                    <Button style={{ width: 120, height: 50, fontSize:20 }} href={value.href} key={value.title} color='primary'>
                     {value.title}
                 </Button>
                 ))}
+                <IconButton color='primary' href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
             </Box>
             </div>
-            <div className={styles.centered}>
+            <div className={styles.centered} >
             <Typography sx={{
-                display: { xs: 'none', sm: 'block' }, textTransform: 'uppercase'}} color="primary" variant="h6">
+                display: { xs: 'none', sm: 'block' }, textTransform: 'uppercase', maxWidth: '600px'}} color="primary" variant="h6">
             <i>Hardware • Lighting • Art • Fireplace • Architectural • Reproduction • Restoration</i>
             </Typography>
             </div>
