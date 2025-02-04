@@ -26,7 +26,7 @@ export default function Drawings() {
         }}
       >
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          Drawings
+          Concepts
         </Typography>
         <Box>
             <ImageList variant="masonry" cols={3} gap={8}>
