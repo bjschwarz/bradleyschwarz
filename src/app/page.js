@@ -76,7 +76,7 @@ export default function Home() {
                  borderRadius: '10px'
                 }}>
           <Typography  variant="h6">
-          <Button size='large' variant='outlined' color='primary' href='https://docs.google.com/forms/d/e/1FAIpQLScklFzqFSGL-NO8zURQed83qXA1TJYo1UkqbhVkSXaQK4GTCA/viewform?usp=sf_link'>Custom Ironwork Commission Inquiry Form</Button>
+          <Button size='large' variant='outlined' color='primary' target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScklFzqFSGL-NO8zURQed83qXA1TJYo1UkqbhVkSXaQK4GTCA/viewform?usp=sf_link'>Custom Ironwork Commission Inquiry Form</Button>
           </Typography>
         </Box>
 
