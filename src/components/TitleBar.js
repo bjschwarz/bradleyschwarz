@@ -72,7 +72,7 @@ export default function DrawerAppBar() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar elevation={0} color='primary' component="nav">
+      <AppBar elevation={0} color='primary' component="nav"  position='absolute'>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -105,9 +105,9 @@ export default function DrawerAppBar() {
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           <IconButton href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
             {Object.entries(navItems).map(([key, value]) => (
-              <Button size='large' href={value.href} key={value.title} color='secondary'>
-                {value.title}
-              </Button>
+              <Button style={{ width: 120, height: 50, fontSize:20 }} href={value.href} key={value.title} color='secondary'>
+                    {value.title}
+                </Button>
             ))}
           </Box>
           

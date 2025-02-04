@@ -7,34 +7,25 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import NextLink from 'next/link';
 import Copyright from '@/components/Copyright';
-import TitleBar from '@/components/TitleBar';
+import HomeTitlebar from '@/components/HomeTitlebar';
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
-import items from "@/components/Projects";
 import Carousel from '@/components/Carousel';
 import Image from 'next/image'
-import { useRef } from 'react';
+import { useRef, useEffect, setHeight, useState, createRef } from 'react';
 import { Icon } from '@mui/material';
 import IconButton from '@mui/material';
 import { ChevronLeft, ChevronRight } from '@mui/icons-material';
 
 export default function Home() {
 
-  const imagegallery = useRef(null);
-
-  const scroll = (scrollOffset) => {
-    console.log(imagegallery)
-    imagegallery.current.scrollLeft += scrollOffset;
-  };
-
-  const Item = styled(Box)(({ theme }) => ({
-    padding: theme.spacing(1),
-  }));
 
   return (
-    <Container sx={{paddingTop: '64px'}} maxWidth="lg">
-      <TitleBar></TitleBar>
-      <Box
+    <Container maxWidth="false" disableGutters>
+        <HomeTitlebar></HomeTitlebar>
+
+      <Container maxWidth="lg">
+      <Box        
         sx={{
           mt:6,
           display: 'flex',
@@ -43,6 +34,7 @@ export default function Home() {
         }}
       >
         <Box sx={{
+                  display: {  sm: 'none', md: 'none', lg: 'none' },
                  borderRadius: '10px',
                  paddingTop: '30px',
                  paddingBlock: '30px',
@@ -53,12 +45,7 @@ export default function Home() {
                 }}>
 
           <Typography sx={{
-            display: { xs: 'none', sm: 'block' }, textTransform: 'uppercase'}} color="primary" variant="h6">
-          <i>Hardware • Lighting • Art • Fireplace • Architectural • Reproduction • Restoration</i>
-          </Typography>
-
-          <Typography sx={{
-            display: {  sm: 'none', md: 'none', lg: 'none' }, textTransform: 'uppercase'}} color="primary" variant="body">
+             textTransform: 'uppercase'}} color="primary" variant="body">
           <i>Hardware • Lighting • Art • Fireplace • Architectural • Reproduction • Restoration</i>
           </Typography>
         </Box>
@@ -73,10 +60,10 @@ export default function Home() {
         <Carousel></Carousel>
         <Typography variant="body">
 
-        <Typography variant="h4">
+        {/* <Typography variant="h4">
         <b>About</b>
         </Typography>
-        ??
+        I am a blacksmith in Durham North Carolina.  */}
         </Typography>
 
         <Box sx={{
@@ -96,6 +83,7 @@ export default function Home() {
 
        
       </Box>
+      </Container>
     </Container>
   );
 }

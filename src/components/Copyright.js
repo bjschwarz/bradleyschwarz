@@ -11,7 +11,7 @@ export default function Copyright() {
         {'Copyright © '}
           Bradley Schwarz
         {' '}
-        {new Date().getFullYear()}.
+        {new Date().getFullYear()}
       </Typography>
     </Box>
   );

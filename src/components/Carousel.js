@@ -7,7 +7,7 @@ export default function ResponsiveCarousel() {
     <div >
       <Carousel
        sx={{ width: 'auto',
-        height: '700px', 
+        height: { xs: '400px', sm: '500px', md: '700px', lg: '700px' }, 
         position: 'relative',
         backgroundColor: "#272727",
         borderRadius: "10px"
