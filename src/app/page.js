@@ -55,7 +55,9 @@ export default function Home() {
         </Typography>
 
         <Typography variant="body" component="">
-        I specialize in artisan quality ironwork, greatly influenced from present and past masters. My aim is to craft new works using traditional methods while observing and evolving the inspiring masterpieces of the ages. This mentality is applied to create custom designs for specific projects, as well as seemlessly matching historic works.  
+        {/* I specialize in artisan quality ironwork, greatly influenced from present and past masters. My aim is to craft new works using traditional methods while observing and evolving the inspiring masterpieces of the ages. This mentality is applied to create custom designs for specific projects, as well as seemlessly matching historic works.   */}
+
+        I am inspired by the elegant work of antiquity. Before modern machine manufacturing, blacksmiths forged their works using skills earned from years of practice and dedication to the craft. With nothing more than simple hand tools, which they also made themselves, these early smiths created some of the world's most awe-inspiring ironwork. This mentality, to achieve perfection with nothing but one's own hands, is what I strive to bring to my work.
         </Typography>
         <Carousel></Carousel>
         <Typography variant="body">
