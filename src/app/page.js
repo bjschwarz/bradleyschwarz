@@ -51,7 +51,7 @@ export default function Home() {
         </Box>
 
         <Typography variant="h4">
-        <b>OFFERINGS</b>
+        <b>Artisan Ironwork</b>
         </Typography>
 
         <Typography variant="body" component="">
