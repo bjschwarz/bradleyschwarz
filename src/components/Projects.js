@@ -156,6 +156,13 @@ import keyplate1 from "../../public/images/20241219_portfolio_1022.jpg"
 import brassringpulls1 from "../../public/images/20241219_portfolio_1052.jpg"
 import brassringpulls2 from "../../public/images/20241219_portfolio_1098.jpg"
 
+import octogonlight1 from "../../public/images/20250225_portfolio_081_cropped.jpg"
+import octogonlight2 from "../../public/images/20250225_portfolio_098_cropped.jpg"
+import octogonlight3 from "../../public/images/20250225_portfolio_108_cropped.jpg"
+import octogonlight4 from "../../public/images/20250225_portfolio_123_cropped.jpg"
+import octogonlight5 from "../../public/images/20250225_portfolio_138_cropped.jpg"
+import octogonlight6 from "../../public/images/20250225_portfolio_160_cropped.jpg"
+
 const detailImages = [
     doorknocker5,
     doorknocker6,
@@ -171,6 +178,39 @@ const detailImages = [
 ]
 
 const projects = [
+    {
+        img: octogonlight1,
+        medium: 'Mild Steel',
+        title: 'Octogonal Light Fixture',
+        additional_images: [
+            {   
+                title: 'Octogonal Light Fixture 1',
+                img: octogonlight1
+            },
+            {   
+                title: 'Octogonal Light Fixture 2',
+                img: octogonlight2
+            },
+            {   
+                title: 'Octogonal Light Fixture 3',
+                img: octogonlight3
+            },
+            {   
+                title: 'Octogonal Light Fixture 4',
+                img: octogonlight4
+            },
+            {   
+                title: 'Octogonal Light Fixture 5',
+                img: octogonlight5
+            },
+            {   
+                title: 'Octogonal Light Fixture 6',
+                img: octogonlight6
+            },
+            
+        ],
+        description: ""
+    },
     {
         img: boxstand1,
         medium: 'Mild Steel',
