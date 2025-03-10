@@ -157,15 +157,16 @@ import brassringpulls1 from "../../public/images/20241219_portfolio_1052.jpg"
 import brassringpulls2 from "../../public/images/20241219_portfolio_1098.jpg"
 
 import octogonlight1 from "../../public/images/20250225_portfolio_081_cropped.jpg"
-import octogonlight2 from "../../public/images/20250225_portfolio_098_cropped.jpg"
-import octogonlight3 from "../../public/images/20250225_portfolio_108_cropped.jpg"
-import octogonlight4 from "../../public/images/20250225_portfolio_123_cropped.jpg"
-import octogonlight5 from "../../public/images/20250225_portfolio_138_cropped.jpg"
-import octogonlight6 from "../../public/images/20250225_portfolio_160_cropped.jpg"
+import octogonlight2 from "../../public/images/20250225_portfolio_098.jpg"
+import octogonlight3 from "../../public/images/20250225_portfolio_108.jpg"
+import octogonlight4 from "../../public/images/20250225_portfolio_123.jpg"
+import octogonlight5 from "../../public/images/20250225_portfolio_138.jpg"
+import octogonlight6 from "../../public/images/20250225_portfolio_160.jpg"
 
 const detailImages = [
     doorknocker5,
     doorknocker6,
+    octogonlight2,
     fireplacescreen4,
     thumblatch3,
     brassface1,
