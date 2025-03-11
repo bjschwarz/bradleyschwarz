@@ -163,9 +163,18 @@ import octogonlight4 from "../../public/images/20250225_portfolio_123.jpg"
 import octogonlight5 from "../../public/images/20250225_portfolio_138.jpg"
 import octogonlight6 from "../../public/images/20250225_portfolio_160.jpg"
 
+import andirons1 from "../../public/images/20250309_portfolio_032.jpg"
+import andirons2 from "../../public/images/20250309_portfolio_004.jpg"
+import andirons3 from "../../public/images/20250309_portfolio_040.jpg"
+import andirons4 from "../../public/images/20250309_portfolio_043.jpg"
+import andirons5 from "../../public/images/20250309_portfolio_051.jpg"
+import andirons6 from "../../public/images/20250309_portfolio_055.jpg"
+import andirons7 from "../../public/images/20250309_portfolio_060.jpg"
+
 const detailImages = [
     doorknocker5,
     doorknocker6,
+    andirons4,
     octogonlight2,
     fireplacescreen4,
     thumblatch3,
@@ -179,6 +188,43 @@ const detailImages = [
 ]
 
 const projects = [
+    {
+        img: andirons1,
+        medium: 'Mild Steel',
+        title: 'Gothic Andirons',
+        additional_images: [
+            {   
+                title: 'Gothic Andirons 1',
+                img: andirons1
+            },
+            {   
+                title: 'Gothic Andirons 2',
+                img: andirons2
+            },
+            {   
+                title: 'Gothic Andirons 3',
+                img: andirons3
+            },
+            {   
+                title: 'Gothic Andirons 4',
+                img: andirons4
+            },
+            {   
+                title: 'Gothic Andirons 5',
+                img: andirons5
+            },
+            {   
+                title: 'Gothic Andirons 6',
+                img: andirons6
+            },
+            {   
+                title: 'Gothic Andirons 7',
+                img: andirons7
+            },
+            
+        ],
+        description: ""
+    },
     {
         img: octogonlight1,
         medium: 'Mild Steel',
