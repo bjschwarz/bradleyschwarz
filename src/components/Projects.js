@@ -171,7 +171,25 @@ import andirons5 from "../../public/images/20250309_portfolio_051.jpg"
 import andirons6 from "../../public/images/20250309_portfolio_055.jpg"
 import andirons7 from "../../public/images/20250309_portfolio_060.jpg"
 
+import railing1 from "../../public/images/20250418_portfolio_055.jpg"
+import railing2 from "../../public/images/20250418_portfolio_067.jpg"
+import railing3 from "../../public/images/20250418_portfolio_077.jpg"
+import railing4 from "../../public/images/20250418_portfolio_055.jpg"
+import railing5 from "../../public/images/20250418_portfolio_083.jpg"
+import railing6 from "../../public/images/20250418_portfolio_089.jpg"
+
+import lantern1 from "../../public/images/20250421_portfolio_191.jpg"
+import lantern2 from "../../public/images/20250421_portfolio_193.jpg"
+import lantern3 from "../../public/images/20250421_portfolio_202.jpg"
+import lantern4 from "../../public/images/20250421_portfolio_207.jpg"
+import lantern5 from "../../public/images/20250421_portfolio_214.jpg"
+import lantern6 from "../../public/images/20250421_portfolio_225.jpg"
+
+
+
 const detailImages = [
+    lantern1,
+    railing1,
     doorknocker5,
     doorknocker6,
     andirons4,
@@ -188,6 +206,72 @@ const detailImages = [
 ]
 
 const projects = [
+    {
+        img: lantern1,
+        medium: 'Mild Steel',
+        title: 'Lantern',
+        additional_images: [
+            {   
+                title: 'Lantern 1',
+                img: lantern1
+            },
+            {   
+                title: 'Lantern 2',
+                img: lantern2
+            },
+            {   
+                title: 'Lantern 3',
+                img: lantern3
+            },
+            {   
+                title: 'Lantern 4',
+                img: lantern4
+            },
+            {   
+                title: 'Lantern 5',
+                img: lantern5
+            },
+            {   
+                title: 'Lantern 6',
+                img: lantern6
+            },
+            
+        ],
+        description: ""
+    },
+    {
+        img: railing1,
+        medium: 'Mild Steel',
+        title: 'Curved Railing',
+        additional_images: [
+            {   
+                title: 'Railing 1',
+                img: railing1
+            },
+            {   
+                title: 'Railing 2',
+                img: railing2
+            },
+            {   
+                title: 'Railing 3',
+                img: railing3
+            },
+            {   
+                title: 'Railing 4',
+                img: railing4
+            },
+            {   
+                title: 'Railing 5',
+                img: railing5
+            },
+            {   
+                title: 'Railing 6',
+                img: railing6
+            },
+            
+        ],
+        description: ""
+    },
     {
         img: andirons1,
         medium: 'Mild Steel',
