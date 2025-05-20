@@ -184,7 +184,17 @@ import lantern3 from "../../public/images/20250421_portfolio_202.jpg"
 import lantern4 from "../../public/images/20250421_portfolio_207.jpg"
 import lantern5 from "../../public/images/20250421_portfolio_214.jpg"
 import lantern6 from "../../public/images/20250421_portfolio_225.jpg"
+import lantern7 from "../../public/images/IMG_9320.jpg"
+import lantern8 from "../../public/images/IMG_9326.jpg"
+import lantern9 from "../../public/images/IMG_9330.jpg"
 
+import drawerPull1 from "../../public/images/DSC03211.jpg"
+import drawerPull2 from "../../public/images/DSC03210.jpg"
+
+import gateHinges1 from "../../public/images/DSC01192.jpg"
+import gateHinges2 from "../../public/images/DSC01203.jpg"
+import gateHinges3 from "../../public/images/DSC01200.jpg"
+ 
 
 
 const detailImages = [
@@ -206,6 +216,46 @@ const detailImages = [
 ]
 
 const projects = [
+    {
+        img: drawerPull1,
+        medium: 'Mild Steel',
+        title: 'Geometric Drawer Pull',
+        additional_images: [
+            {   
+                title: 'Geometric Drawer Pull 1',
+                img: drawerPull1
+            },
+            {   
+                title: 'Geometric Drawer Pull 2',
+                img: drawerPull2
+            },
+            
+            
+        ],
+        description: "Cabinet was designed and made by Starr Woodworks"
+    },
+    {
+        img: gateHinges3,
+        medium: 'Mild Steel',
+        title: 'Gate Hinges',
+        additional_images: [
+            {   
+                title: 'Gate Hinges 1',
+                img: gateHinges3
+            },
+            {   
+                title: 'Gate Hinges 2',
+                img: gateHinges2
+            },
+            {   
+                title: 'Gate Hinges 3',
+                img: gateHinges1
+            },
+           
+            
+        ],
+        description: "Gate was designed and made by Starr Woodworks"
+    },
     {
         img: lantern1,
         medium: 'Mild Steel',
@@ -234,6 +284,18 @@ const projects = [
             {   
                 title: 'Lantern 6',
                 img: lantern6
+            },
+            {   
+                title: 'Lantern 7',
+                img: lantern7
+            },
+            {   
+                title: 'Lantern 8',
+                img: lantern8
+            },
+            {   
+                title: 'Lantern 9',
+                img: lantern9
             },
             
         ],
