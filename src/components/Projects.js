@@ -190,6 +190,7 @@ import lantern9 from "../../public/images/IMG_9330.jpg"
 
 import drawerPull1 from "../../public/images/DSC03211.jpg"
 import drawerPull2 from "../../public/images/DSC03210.jpg"
+import drawerPull3 from "../../public/images/DSC03183.jpg"
 
 import gateHinges1 from "../../public/images/DSC01192.jpg"
 import gateHinges2 from "../../public/images/DSC01203.jpg"
@@ -228,6 +229,10 @@ const projects = [
             {   
                 title: 'Geometric Drawer Pull 2',
                 img: drawerPull2
+            },
+            {   
+                title: 'Geometric Drawer Pull 3',
+                img: drawerPull3
             },
             
             
