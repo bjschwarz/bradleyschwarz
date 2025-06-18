@@ -196,9 +196,14 @@ import gateHinges1 from "../../public/images/DSC01192.jpg"
 import gateHinges2 from "../../public/images/DSC01203.jpg"
 import gateHinges3 from "../../public/images/DSC01200.jpg"
  
-
+import sampleHinge1 from "../../public/images/20250604_portfolio_021.jpg"
+import sampleHinge2 from "../../public/images/20250604_portfolio_022.jpg"
+import sampleHinge3 from "../../public/images/20250604_portfolio_027.jpg"
+import sampleHinge4 from "../../public/images/20250604_portfolio_032.jpg"
+import sampleHinge5 from "../../public/images/20250604_portfolio_037.jpg"
 
 const detailImages = [
+    sampleHinge1,
     lantern1,
     railing1,
     doorknocker5,
@@ -217,6 +222,36 @@ const detailImages = [
 ]
 
 const projects = [
+    {
+        img: sampleHinge1,
+        medium: 'Mild Steel',
+        title: 'Sample Gothic Hinge',
+        additional_images: [
+            {   
+                title: 'Sample Gothic Hinge 1',
+                img: sampleHinge1
+            },
+            {   
+                title: 'Sample Gothic Hinge 2',
+                img: sampleHinge2
+            },
+            {   
+                title: 'Sample Gothic Hinge 3',
+                img: sampleHinge3
+            },
+            {   
+                title: 'Sample Gothic Hinge 4',
+                img: sampleHinge4
+            },
+            {   
+                title: 'Sample Gothic Hinge 5',
+                img: sampleHinge5
+            },
+            
+            
+        ],
+        description: ""
+    },
     {
         img: drawerPull1,
         medium: 'Mild Steel',
