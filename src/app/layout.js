@@ -10,6 +10,9 @@ import { Padding } from '@mui/icons-material';
 import { GlobalStyles } from '@mui/material';
 import Copyright from '@/components/Copyright';
 
+// app/layout.jsx or app/layout.tsx
+import { GoogleTagManager } from '@next/third-parties/google';
+
 export default function RootLayout(props) {
 
 
@@ -18,6 +21,7 @@ export default function RootLayout(props) {
       <body>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
+            <GoogleTagManager gtmId="G-JH6VP5ZCPR" />
             {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
             <CssBaseline />
             <GlobalStyles
