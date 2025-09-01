@@ -202,6 +202,11 @@ import sampleHinge3 from "../../public/images/20250604_portfolio_027.jpg"
 import sampleHinge4 from "../../public/images/20250604_portfolio_032.jpg"
 import sampleHinge5 from "../../public/images/20250604_portfolio_037.jpg"
 
+import fireScreenAndTools1 from "../../public/images/Fire_screen_installed.jpg"
+import fireScreenAndTools2 from "../../public/images/20250722_portfolio_062.jpg"
+import fireScreenAndTools3 from "../../public/images/20250722_portfolio_069.jpg"
+
+
 const detailImages = [
     sampleHinge1,
     lantern1,
@@ -222,6 +227,26 @@ const detailImages = [
 ]
 
 const projects = [
+    {
+        img: fireScreenAndTools1,
+        medium: 'Mild Steel',
+        title: 'Fire Screen and Tools',
+        additional_images: [
+            {   
+                title: 'Fire Screen and Tools 1',
+                img: fireScreenAndTools1
+            },
+            {   
+                title: 'Fire Screen and Tools 2',
+                img: fireScreenAndTools2
+            },
+            {   
+                title: 'Fire Screen and Tools 3',
+                img: fireScreenAndTools3
+            },       
+        ],
+        description: ""
+    },
     {
         img: sampleHinge1,
         medium: 'Mild Steel',
