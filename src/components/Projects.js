@@ -206,8 +206,22 @@ import fireScreenAndTools1 from "../../public/images/Fire_screen_installed.jpg"
 import fireScreenAndTools2 from "../../public/images/20250722_portfolio_062.jpg"
 import fireScreenAndTools3 from "../../public/images/20250722_portfolio_069.jpg"
 
+import poplarHooks1 from "../../public/images/20251124_poplarleafhooks_0072.jpg"
+import poplarHooks2 from "../../public/images/20251124_poplarleafhooks_0007.jpg"
+import poplarHooks3 from "../../public/images/20251124_poplarleafhooks_0099.jpg"
+
+import logbasket1 from "../../public/images/20251228_bss_portfolio_logbaskets_0022.jpg"
+import logbasket2 from "../../public/images/20251228_bss_portfolio_logbaskets_0037.jpg"
+import logbasket3 from "../../public/images/20251228_bss_portfolio_logbaskets_0043.jpg"
+import logbasket4 from "../../public/images/20251228_bss_portfolio_logbaskets_0060.jpg"
+import logbasket5 from "../../public/images/20251228_bss_portfolio_logbaskets_0063.jpg"
+import logbasket6 from "../../public/images/20251228_bss_portfolio_logbaskets_0068.jpg"
+import logbasket7 from "../../public/images/20251228_bss_portfolio_logbaskets_0075.jpg"
+import logbasket8 from "../../public/images/20251228_bss_portfolio_logbaskets_0084.jpg"
+import logbasket9 from "../../public/images/20251228_bss_portfolio_logbaskets_0088.jpg"
 
 const detailImages = [
+    logbasket1,
     sampleHinge1,
     lantern1,
     railing1,
@@ -227,6 +241,70 @@ const detailImages = [
 ]
 
 const projects = [
+    {
+        img: logbasket1,
+        medium: 'Mild Steel',
+        title: 'Decorative Log Baskets',
+        additional_images: [
+            {   
+                title: 'Decorative Log Basket 1',
+                img: logbasket1
+            },
+            {   
+                title: 'Decorative Log Basket 2',
+                img: logbasket2
+            },
+            {   
+                title: 'Decorative Log Basket 3',
+                img: logbasket3
+            },
+            {   
+                title: 'Decorative Log Basket 4',
+                img: logbasket4
+            },
+            {   
+                title: 'Decorative Log Basket 5',
+                img: logbasket5
+            },
+            {   
+                title: 'Decorative Log Basket 6',
+                img: logbasket6
+            },
+            {   
+                title: 'Decorative Log Basket 7',
+                img: logbasket7
+            },
+            {   
+                title: 'Decorative Log Basket 8',
+                img: logbasket8
+            },
+            {   
+                title: 'Decorative Log Basket 9',
+                img: logbasket9
+            },       
+        ],
+        description: ""
+    },
+    {
+        img: poplarHooks1,
+        medium: 'Mild Steel',
+        title: 'Poplar Leaf Hooks',
+        additional_images: [
+            {   
+                title: 'Poplar Leaf Hooks 1',
+                img: poplarHooks1
+            },
+            {   
+                title: 'Poplar Leaf Hooks 2',
+                img: poplarHooks2
+            },
+            {   
+                title: 'Poplar Leaf Hooks 3',
+                img: poplarHooks3
+            },       
+        ],
+        description: ""
+    },
     {
         img: fireScreenAndTools1,
         medium: 'Mild Steel',
@@ -594,19 +672,19 @@ const projects = [
         ],
         description: ""
     },
-    {
-        img: keyplate1,
-        medium: 'Mild Steel',
-        title: 'Escutcheon',
-        additional_images: [
-            {   
-                title: 'Escutcheon',
-                img: keyplate1
-            },
+    // {
+    //     img: keyplate1,
+    //     medium: 'Mild Steel',
+    //     title: 'Escutcheon',
+    //     additional_images: [
+    //         {   
+    //             title: 'Escutcheon',
+    //             img: keyplate1
+    //         },
             
-        ],
-        description: ""
-    },
+    //     ],
+    //     description: ""
+    // },
     {
         img: brassringpulls1,
         medium: 'brass',
@@ -776,34 +854,34 @@ const projects = [
         ],
         description: "A thumb latch heavily inspired by one I saw in the book \"Early American Wrought Iron\". The design has moravian gothic influence, which I am fond of."
     },
-    {
-        img: ceilingdryingrack1,
-        medium: 'Mild Steel, White Oak',
-        title: 'Ceiling Drying Rack',
-        additional_images: [
-            {   
-                title: 'Ceiling Drying Rack 1',
-                img: ceilingdryingrack1
-            },
-            {   
-                title: 'Ceiling Drying Rack 2',
-                img: ceilingdryingrack2
-            },
-            {   
-                title: 'Ceiling Drying Rack 3',
-                img: ceilingdryingrack3
-            },
-            {   
-                title: 'Ceiling Drying Rack 4',
-                img: ceilingdryingrack4
-            },
-            {   
-                title: 'Ceiling Drying Rack 5',
-                img: ceilingdryingrack5
-            },
-        ],
-        description: "This is a custom project for a client who wanted an overhead drying rack with hand-forged components. After a little trial and error, I decided on this double layered design to hold the multiple wood bars. The layers are joined by a through-rivet and suspended by pulleys from the ceiling.  "
-    },
+    // {
+    //     img: ceilingdryingrack1,
+    //     medium: 'Mild Steel, White Oak',
+    //     title: 'Ceiling Drying Rack',
+    //     additional_images: [
+    //         {   
+    //             title: 'Ceiling Drying Rack 1',
+    //             img: ceilingdryingrack1
+    //         },
+    //         {   
+    //             title: 'Ceiling Drying Rack 2',
+    //             img: ceilingdryingrack2
+    //         },
+    //         {   
+    //             title: 'Ceiling Drying Rack 3',
+    //             img: ceilingdryingrack3
+    //         },
+    //         {   
+    //             title: 'Ceiling Drying Rack 4',
+    //             img: ceilingdryingrack4
+    //         },
+    //         {   
+    //             title: 'Ceiling Drying Rack 5',
+    //             img: ceilingdryingrack5
+    //         },
+    //     ],
+    //     description: "This is a custom project for a client who wanted an overhead drying rack with hand-forged components. After a little trial and error, I decided on this double layered design to hold the multiple wood bars. The layers are joined by a through-rivet and suspended by pulleys from the ceiling.  "
+    // },
     {
         img: fireplacescreen1,
         medium: 'Mild Steel',
@@ -877,26 +955,26 @@ const projects = [
         description: "This project utilized an ancient technique called chasing and repousse. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. The subject was an anatomical study of the human face in brass. I wanted to learn how to render more realistic faces so I referenced some anatomical sculptures for this piece. The plate is designed to be mounted to a door or chest."
     },
     
-    {
-        img: trivet1,
-        medium: 'Mild Steel',
-        title: 'Tri Leaf Trivet',
-        additional_images: [
-            {   
-                title: 'Trivet 1',
-                img: trivet1
-            },
-            {   
-                title: 'Trivet 2',
-                img: trivet2
-            },
-            {   
-                title: 'Trivet 3',
-                img: trivet3
-            },
-        ],
-        description: "This trivet was inspired by early medieval Gothic era ironwork, specifically the hinges of the Notre Dame Cathedral. I wanted to practice using some of the same ancient techniques, fire welding in this case, to join multiple leaves together into the end of a \"branch\". These methods served as research and practice for future work."
-    },
+    // {
+    //     img: trivet1,
+    //     medium: 'Mild Steel',
+    //     title: 'Tri Leaf Trivet',
+    //     additional_images: [
+    //         {   
+    //             title: 'Trivet 1',
+    //             img: trivet1
+    //         },
+    //         {   
+    //             title: 'Trivet 2',
+    //             img: trivet2
+    //         },
+    //         {   
+    //             title: 'Trivet 3',
+    //             img: trivet3
+    //         },
+    //     ],
+    //     description: "This trivet was inspired by early medieval Gothic era ironwork, specifically the hinges of the Notre Dame Cathedral. I wanted to practice using some of the same ancient techniques, fire welding in this case, to join multiple leaves together into the end of a \"branch\". These methods served as research and practice for future work."
+    // },
     {
         img: oakhook1,
         medium: 'Mild Steel',
@@ -1189,22 +1267,22 @@ const projects = [
         description: "I was inspired by some colonial French designs that incorporated a welded heart and wanted to try to make one on a shovel. At the time this was a difficult exercise for me and pushed my forge welding skills to the next level."
     },
 
-    {
-        img: wallsconce1,
-        medium: 'Mild Steel',
-        title: 'Wall Sconce',
-        additional_images: [
-            {   
-                title: 'Wall Sconce 1',
-                img: wallsconce1
-            },
-            {   
-                title: 'Wall Sconce 2',
-                img: wallsconce2
-            },
-        ],
-        description: "We are fond of using candles for light in our household. Taking the candles off surfaces where children and animals can reach them makes it much safer. Since wall mounted candles have been used for centuries I don't think we are the first to have seen the benefit. The inspiration for this design came from a similar one made by mentor and fellow smith Tom Latané. I loved the extreme material isolation and the integrated candle cup. "
-    },
+    // {
+    //     img: wallsconce1,
+    //     medium: 'Mild Steel',
+    //     title: 'Wall Sconce',
+    //     additional_images: [
+    //         {   
+    //             title: 'Wall Sconce 1',
+    //             img: wallsconce1
+    //         },
+    //         {   
+    //             title: 'Wall Sconce 2',
+    //             img: wallsconce2
+    //         },
+    //     ],
+    //     description: "We are fond of using candles for light in our household. Taking the candles off surfaces where children and animals can reach them makes it much safer. Since wall mounted candles have been used for centuries I don't think we are the first to have seen the benefit. The inspiration for this design came from a similar one made by mentor and fellow smith Tom Latané. I loved the extreme material isolation and the integrated candle cup. "
+    // },
 ]
 
 export{
