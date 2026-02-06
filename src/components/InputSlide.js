@@ -31,7 +31,7 @@ const InputSide = () => {
           width: '100%'
         }}>
         <Typography variant="h6" component="h2">
-        If you have questions, or are curious about commissioning custom ironwork fill out this form or send me an email at bradleyschwarz1@gmail.com.
+        If you have questions, or are curious about commissioning custom ironwork fill out this form or send me an email at info@bradleyschwarzstudio.com.
         </Typography>
         <Box sx={{
           display: 'flex',
