@@ -223,21 +223,14 @@ import logbasket9 from "../../public/images/20251228_bss_portfolio_logbaskets_00
 const detailImages = [
     logbasket1,
     sampleHinge1,
-    lantern1,
-    railing1,
     doorknocker5,
     doorknocker6,
-    andirons4,
     octogonlight2,
-    fireplacescreen4,
-    thumblatch3,
     brassface1,
     crablock1,
     dryingrack2,
     candelabra2,
     brassringpulls1,
-    frenchtoolstand1,
-    gothichinge1,
 ]
 
 const projects = [
@@ -728,7 +721,7 @@ const projects = [
                 img: smalllight5
             },
         ],
-        description: "A custom light fixture for a client who wanted several high-quality handmade light fixtures with more modern lines. I designed these by incorporating elements from antique lights while maintaining simple structure and contemporary appeal. Four fixtures were built in different sizes using the same basic design."
+        description: ""
     },
     {
         img: mediumlight1,
@@ -760,7 +753,7 @@ const projects = [
                 img: mediumlight6
             },
         ],
-        description: "A custom light fixture for a client who wanted several high-quality handmade light fixtures with more modern lines. I designed these by incorporating elements from antique lights while maintaining simple structure and contemporary appeal. Four fixtures were built in different sizes using the same basic design."
+        description: ""
     },
     {
         img: largelight1,
@@ -792,7 +785,7 @@ const projects = [
                 img: largelight7
             },
         ],
-        description: "A custom light fixture for a client who wanted several high-quality handmade light fixtures with more modern lines. I designed these by incorporating elements from antique lights while maintaining simple structure and contemporary appeal. Four fixtures were built in different sizes using the same basic design."
+        description: ""
     },
     {
         img: doorknocker1,
@@ -828,7 +821,7 @@ const projects = [
                 img: doorknocker7
             },
         ],
-        description: "This project began a few years ago in a class with Tom Latané. It started out as only the backplate of the door knocker. I recently picked it back up since I felt confident at my current forging skill level to finish the knocker and hardware. I pulled ideas from multiple examples of early to middle medieval door knockers to develop this design."
+        description: " "
     },
     {
         img: thumblatch1,
@@ -852,7 +845,7 @@ const projects = [
                 img: thumblatch4
             }
         ],
-        description: "A thumb latch heavily inspired by one I saw in the book \"Early American Wrought Iron\". The design has moravian gothic influence, which I am fond of."
+        description: ""
     },
     // {
     //     img: ceilingdryingrack1,
@@ -904,7 +897,7 @@ const projects = [
                 img: fireplacescreen4
             },
         ],
-        description: "This is a custom project for a client whose home features a vintage curved brick fireplace built by a master mason. The ironwork required matching curves in two planes. The client wanted incorporated handles to remove the screen as needed. They desired clean lines and a sprinkling of brass rivets to add some contrast."
+        description: " "
     },
     {
         img: candelabra1,
@@ -928,7 +921,7 @@ const projects = [
                 img: candelabra4
             },
         ],
-        description: "This project was based on an image of a 14th century candelabra found in the book Decorative Antique Ironwork by Henry Rene D'Allemagne.. I was drawn immediately to the integrated dragon head legs. This detail provided an opportunity to try solid steel chasing. The project was a combination of sculptural and geometrical design. I am interested in exploring the design of how candle light was optimized and made beautiful in times past. They were the main source of lighting at tables and in large rooms for hundreds of years."
+        description: ""
     },
     {
         img: brassface1,
@@ -952,7 +945,7 @@ const projects = [
                 img: brassface4
             },
         ],
-        description: "This project utilized an ancient technique called chasing and repousse. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. The subject was an anatomical study of the human face in brass. I wanted to learn how to render more realistic faces so I referenced some anatomical sculptures for this piece. The plate is designed to be mounted to a door or chest."
+        description: ""
     },
     
     // {
@@ -997,7 +990,7 @@ const projects = [
                 img: oakhook4
             },
         ],
-        description: "These hooks were a commission for a client. They wanted an oak-themed hooks for the entryway of their home that is shaded by a magnificent white oak tree. I found inspiration for the project in gothic-style leaves on the andirons at the Biltmore Estate. I appreciated their simplicity of the central stems. The simple stems made for an elegant leaf free of distraction. The stem then curves to make the base of the hook and terminates in an acorn. "
+        description: " "
     },
     // {
     //     img: flowerhook1,
@@ -1043,7 +1036,7 @@ const projects = [
                 img: dryingrack5
             },
         ],
-        description: "Most of the accordion-style drying racks available online are poor quality and cannot hold a high quantity of clothes. We faced this problem when we were looking to replace one that fell apart and couldn't be repaired. I found some examples of antique wall-mount drying racks that had an ingenious design. I decided it was an excellent opportunity to bring back the old mentality of beautiful form and function. I used proportional geometry to do all of the layout for this piece. "
+        description: "",
     },
     {
         img: dividers1,
@@ -1063,7 +1056,7 @@ const projects = [
                 img: dividers3
             },
         ],
-        description: "I was inspired by mentor and fellow smith Tom Latané who made a gothic compass years ago. Additionally, I referenced an image of a similar compass in the book Decorative Antique Ironwork by Henry Rene D'Allemagne. This was a challenging project since I first had to learn the proper process of forging a mechanically-sound compass. Tools have always been an extension of the hand for craftsmen. I enjoy making tools beautiful in addition to functional. Tools made with this intention are a joy to use."
+        description: " "
     },
     
     {
@@ -1092,7 +1085,7 @@ const projects = [
                 img: fireplacetoolset5
             },
         ],
-        description: "While renovating our home, we went several winters heating with only a fireplace insert. This was a great opportunity to create a nice fireplace toolset for regular use. I wanted to make wooden handles for the tools and fix them to the steel with a through tang similar to how draw knives are made. At the time this was a challenging project that pushed me in many areas."
+        description: ""
     },
 
     {
@@ -1118,7 +1111,7 @@ const projects = [
             },
          
         ],
-        description: "The inspiration for this ornate keyhole spatula came from a picture of Tom Latané's utensils. I wanted to do a project that utilized a swaged molding detail. The positive shape was first made on the metal lathe and then transferred into a top and bottom die to swage onto the spatula."
+        description: " "
     },
     {
         img: crablock1,
@@ -1150,7 +1143,7 @@ const projects = [
                 img:crablock6
             },
         ],
-        description: "Peter Ross had a couple orders for crab locks and offered for me to come learn to make one while he made his. It was a challenging but interesting project. I had not done many small part forgings before. The lock operates well, but I would change some things to improve the performance with the next one."
+        description: ""
     },
     {
         img: brassgreenman1,
@@ -1174,7 +1167,7 @@ const projects = [
                 img: brassgreenman4
             },
         ],
-        description: "This was my first attempt with chasing and repousse. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. Unfortunately I punched through the brass in a couple places since I had not learned the limitations of the medium or the importance of having tools with all smooth edges. Nevertheless I really enjoyed this project and it inspired me to continue doing repousse work."
+        description: ""
     },
     // {
     //     img: twocandlechandelier1,
@@ -1226,7 +1219,7 @@ const projects = [
                 img: irongreenman5
             },
         ],
-        description: "This was my first attempt at chasing and repousse in steel. The metal is first dished from the back to create volume, then refined with small tools to create intricate designs. Moving cold steel by hand and hammer is much different than non-ferrous metals. I learned that I needed a bigger hammer with more force and frequent annealing to keep the metal soft enough to work. It gave me an appreciation for medieval armor smiths. I originally designed this to become a door knocker and I eventually will complete it."
+        description: ""
     },
     // {
     //     img: leafhook1,
@@ -1264,7 +1257,7 @@ const projects = [
                 img: shovel3
             }
         ],
-        description: "I was inspired by some colonial French designs that incorporated a welded heart and wanted to try to make one on a shovel. At the time this was a difficult exercise for me and pushed my forge welding skills to the next level."
+        description: ""
     },
 
     // {

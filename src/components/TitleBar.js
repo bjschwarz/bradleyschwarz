@@ -18,20 +18,22 @@ import NextLink from 'next/link';
 import logo from "../../public/logo.png"
 import Image from 'next/image'
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { usePathname } from 'next/navigation';
 
 
 const drawerWidth = 240;
 
 const navItems = {
   home: {title: "Home", href : "/"},
-  gallery: {title: "Gallery", href : "/gallery"},
-  drawings: {title: "Concepts", href : "/drawings"},
+  gallery: {title: "Portfolio", href : "/gallery"},
   about: {title: "About", href : "/about"},
   contact: {title: "Contact", href : "/contact"},
 }
 
 export default function DrawerAppBar() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const pathname = usePathname();
+   
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
@@ -56,13 +58,16 @@ export default function DrawerAppBar() {
       </div>
       <Divider />
       <List>
-        {Object.entries(navItems).map(([key, value]) => (
+        {Object.entries(navItems).map(([key, value]) => {
+          const isActive = pathname === value.href;
+          return (
           <ListItem key={value.title} disablePadding>
             <ListItemButton href={value.href} sx={{ textAlign: 'center' }}>
-              <ListItemText primary={value.title} />
+              <ListItemText primary={value.title} sx={{fontWeight: isActive ? 'bold' : 'normal'}} />
             </ListItemButton>
           </ListItem>
-        ))}
+          )
+        })}
       </List>
 
       <IconButton href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
@@ -103,11 +108,14 @@ export default function DrawerAppBar() {
 
           
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {Object.entries(navItems).map(([key, value]) => (
-              <Button style={{ width: 120, height: 50, fontSize:20 }} href={value.href} key={value.title} color='secondary'>
+            {Object.entries(navItems).map(([key, value]) => {
+              const isActive = pathname === value.href;
+              return (
+              <Button  style={{ width: 120, height: 50, fontSize:20 }} sx={{fontWeight: isActive ? 'bold' : 'normal'}} href={value.href} key={value.title} color='secondary'>
                     {value.title}
                 </Button>
-            ))}
+              )
+            })}
             <IconButton color='secondary' href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
           </Box>
           

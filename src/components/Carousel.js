@@ -19,7 +19,7 @@ export default function ResponsiveCarousel() {
                 layout="fill"
                 src={item}
                 alt='logo'
-                objectFit="contain"
+                objectFit="cover"
                 loading="eager"
               />
           </div>

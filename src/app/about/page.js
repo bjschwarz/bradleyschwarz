@@ -34,9 +34,6 @@ export default function About() {
           flexDirection: 'column',
         }}
       >
-        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          About
-        </Typography>
         <Grid container spacing={4}>
           <Grid xs={12} md={6}>
             <Item elevation={0}>
@@ -58,23 +55,14 @@ export default function About() {
                   flexDirection: 'column',
                   gap: 4
                 }}>
-                <Typography variant="h4" component="h2">
-                  Bradley Schwarz, an artisan metalsmith based in Durham North Carolina. 
-                </Typography>
                 <Typography variant="body" component="">
-                  I am inspired by the elegant work of antiquity. Before modern machine manufacturing, blacksmiths forged their works using skills earned from years of practice and dedication to the craft. With nothing more than simple hand tools, which they also made themselves, these early smiths created some of the world's most awe-inspiring ironwork. This mentality, to achieve perfection with nothing but one's own hands, is what I strive to bring to my work. 
-                </Typography>
+                I am a blacksmith based in North Carolina, creating hand-forged ironwork. My craft is rooted in traditional methods carefully stewarded by expert smiths over thousands of years. Guided by the ancient principles of proportion, balance, and the unity of ornament and structure, my designs derive inspiration from a time when every element of a building was touched by a craftsman’s hand and shaped how its inhabitants experienced a space.                </Typography>
                 <Typography variant="body" component="">
 
-                  I could never have come as far as I have without the generosity of several mentors. Jerry Darnell taught me many of the fundamentals of blacksmithing. How to work quickly and efficiently, correct fire control, and forge welding. His patience and knowledge laid a foundation for me to build onto. Peter Ross instilled in me a critical eye for detail, striving to have clean forgings, and to theorize and consider the processes used by period smiths. I have also been inspired by the work of Tom Latané who places artistry and elegant design at the top of his priorities. 
-                </Typography>
+                In medieval architecture, ironwork marked moments of transition. Opening a gate, grasping a handle, or passing through a doorway became a deliberate, tactile experience. The weight, texture, and movement of the iron gave presence to ordinary actions, turning them into gestures of meaning.I bring that same sense of presence into contemporary spaces. Every project begins with a careful reading of the architecture it will inhabit—its materials, lines, and rhythm. The ironwork is designed to feel inseparable from the building, as if it has always belonged there.                </Typography>
                 <Typography variant="body" component="">
 
-                  I prefer to work with antique tools and belt-driven machinery. I use a 1912 German Söding Halbach anvil and a 1905 Buffalo Coal Forge. I enjoy the satisfaction of making my own tools when needed and restoring antique machines in disrepair. I plan to run my workshop from a line shaft belt system in the future.
-                </Typography>
-                <Typography variant="body" component="">
-                  Currently I am focused on exploring the intersection between modern practically useful Items and early medieval designs. I am working on developing the processes used by early smiths to forge botanical and animal motifs, then incorporating them into my own designs.
-
+                Each piece is forged by hand using heat, hammer, and anvil. This results in subtle variations of surface and form that grounds a space in a way machine-made objects cannot These marks hold the memory of human force and intention, giving the work a quiet vitality.In a world increasingly defined by speed and disposability, I believe there remains tremendous value in continuing this lineage of creating objects slowly, deliberately, and with the ultimate goal of enduring for generations.
                 </Typography>
                  
               </Box>

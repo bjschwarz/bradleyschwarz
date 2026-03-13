@@ -20,19 +20,21 @@ import logoInverted from "../../public/logo_inverted.png"
 import Image from 'next/image'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import styles from './HomeTitlebar.module.css';
+import { usePathname } from 'next/navigation';
 
 const drawerWidth = 240;
 
 const navItems = {
   home: {title: "Home", href : "/"},
-  gallery: {title: "Gallery", href : "/gallery"},
-  drawings: {title: "Concepts", href : "/drawings"},
+  gallery: {title: "Portfolio", href : "/gallery"},
+  // drawings: {title: "Concepts", href : "/drawings"},
   about: {title: "About", href : "/about"},
   contact: {title: "Contact", href : "/contact"},
 }
 
 export default function DrawerAppBar() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const pathname = usePathname();
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
@@ -57,13 +59,16 @@ export default function DrawerAppBar() {
       </div>
       <Divider />
       <List>
-        {Object.entries(navItems).map(([key, value]) => (
+        {Object.entries(navItems).map(([key, value]) => {
+          const isActive = pathname === value.href;
+          return (
           <ListItem key={value.title} disablePadding>
             <ListItemButton href={value.href} sx={{ textAlign: 'center' }}>
-              <ListItemText primary={value.title} />
+              <ListItemText sx={{fontWeight: isActive ? 'bold' : 'normal'}} primary={value.title} />
             </ListItemButton>
           </ListItem>
-        ))}
+          )
+      })}
       </List>
 
       <IconButton href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
@@ -77,7 +82,7 @@ export default function DrawerAppBar() {
         <Box sx={{  justifyContent: 'center', alignItems: 'center', zIndex: '2', backgroundColor: '#111'}}>
             <div className={styles.container}>
             <video playsInline width="100%" height="auto" autoPlay loop muted>
-                <source src="/header.mp4" type="video/mp4" />
+                <source src="/v3_header.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <div className={styles.top_left}>
@@ -114,11 +119,14 @@ export default function DrawerAppBar() {
             <div className={styles.top_right}>
             
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                {Object.entries(navItems).map(([key, value]) => (
-                    <Button style={{ width: 120, height: 50, fontSize:20 }} href={value.href} key={value.title} color='primary'>
+                {Object.entries(navItems).map(([key, value]) => {
+                    const isActive = pathname === value.href;
+                    return (  
+                    <Button style={{ width: 120, height: 50, fontSize:20 }} sx={{fontWeight: isActive ? 'bold' : 'normal'}} href={value.href} key={value.title} color='primary'>
                     {value.title}
                 </Button>
-                ))}
+                    )
+               })}
                 <IconButton color='primary' href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
             </Box>
             </div>

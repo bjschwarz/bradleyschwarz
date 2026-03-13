@@ -22,9 +22,6 @@ export default function Gallery() {
           alignItems: 'center',
         }}
       >
-        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          Gallery
-        </Typography>
         <Typography variant="body" component="h4" sx={{ mb: 0 }}>
           Click images for additional detail
         </Typography>

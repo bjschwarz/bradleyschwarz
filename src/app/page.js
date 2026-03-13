@@ -16,11 +16,16 @@ import { useRef, useEffect, setHeight, useState, createRef } from 'react';
 import { Icon } from '@mui/material';
 import IconButton from '@mui/material';
 import { ChevronLeft, ChevronRight } from '@mui/icons-material';
+import detail from "../../public/images/20251228_bss_portfolio_logbaskets_0068.jpg"
+
 
 export default function Home() {
-
+  const Item = styled(Box)(({ theme }) => ({
+    padding: theme.spacing(1),
+  }));
 
   return (
+    
     <Container maxWidth="false" disableGutters>
         <HomeTitlebar></HomeTitlebar>
 
@@ -30,7 +35,8 @@ export default function Home() {
           mt:6,
           display: 'flex',
           flexDirection: 'column',
-          gap: 4
+          textAlign: 'center',
+          gap: 10
         }}
       >
         <Box sx={{
@@ -54,32 +60,69 @@ export default function Home() {
         <b>Artisan Ironwork</b>
         </Typography>
 
-        <Typography variant="body" component="">
-        {/* I specialize in artisan quality ironwork, greatly influenced from present and past masters. My aim is to craft new works using traditional methods while observing and evolving the inspiring masterpieces of the ages. This mentality is applied to create custom designs for specific projects, as well as seemlessly matching historic works.   */}
-
-        I am inspired by the elegant work of antiquity. Before modern machine manufacturing, blacksmiths forged their works using skills earned from years of practice and dedication to the craft. With nothing more than simple hand tools, which they also made themselves, these early smiths created some of the world's most awe-inspiring ironwork. This mentality, to achieve perfection with nothing but one's own hands, is what I strive to bring to my work.
-        </Typography>
-        <Carousel></Carousel>
         <Typography variant="body">
 
-        {/* <Typography variant="h4">
-        <b>About</b>
-        </Typography>
-        I am a blacksmith in Durham North Carolina.  */}
+        In medieval architecture, ironwork marked moments of transition. Opening a gate, grasping a handle, or passing through a doorway became a deliberate, tactile experience. In a world increasingly defined by speed and disposability, I believe there remains tremendous value in continuing this lineage of creating objects slowly, deliberately, and with the ultimate goal of enduring for generations.
         </Typography>
 
-        <Box sx={{
-                 paddingTop: '30px',
-                 paddingBlock: '30px',
-                 backgroundColor: '#222',
-                 textAlign: 'center',
-                 borderRadius: '10px'
-                }}>
-          <Typography  variant="h6">
-          <Button size='large' variant='outlined' color='primary' target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScklFzqFSGL-NO8zURQed83qXA1TJYo1UkqbhVkSXaQK4GTCA/viewform?usp=sf_link'>Custom Ironwork Commission Inquiry Form</Button>
-          </Typography>
+       <Box
+        sx={{
+          my: 4,
+          display: 'flex',
+          alignItems: 'center',
+          flexDirection: 'column',
+        }}
+        >
+          <Grid container spacing={4}>
+            <Grid xs={12} md={6}>
+              <Item elevation={0}>
+                <Image
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
+                  src={detail}
+                  alt='logo'
+                  loading="eager"
+                />
+              </Item>
+            </Grid>
+            <Grid xs={12} md={6}>
+              <Item elevation={0}>
+                <Box sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: 4
+                  }}>
+                  <Typography variant="h5" component="">
+                  Portfolio                  
+                  </Typography>
+                  <Typography variant="body" component="">
+                  Take a closer look at some of my recent work. Spanning from custom hardware to large-scale architectural projects, each piece is designed and forged with the same attention to detail and commitment to craftsmanship.
+
+                  </Typography>
+                  <Typography variant="body" component="">
+                    <a href='/gallery' style={{color: '#222', textDecoration: 'underline', fontSize: '1.1rem'}}>See More</a>      
+
+                  </Typography>
+
+                  
+                </Box>
+              </Item>
+            </Grid>     
+          </Grid>
         </Box>
 
+        <Carousel></Carousel>
+
+        
+        <Button sx={{
+        height: 150, // Explicit height
+        fontSize: '1.75rem', // Larger font size
+        padding: '10px 20px', // Custom padding
+        minWidth: 0, // Override default minWidth
+      }} size='large' color='secondary' variant='contained' target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScklFzqFSGL-NO8zURQed83qXA1TJYo1UkqbhVkSXaQK4GTCA/viewform?usp=sf_link'>Custom Ironwork Commission Inquiry Form</Button>
+   
        
       </Box>
       </Container>
