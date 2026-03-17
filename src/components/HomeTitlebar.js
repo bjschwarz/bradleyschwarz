@@ -81,7 +81,7 @@ export default function DrawerAppBar() {
 
         <Box sx={{  justifyContent: 'center', alignItems: 'center', zIndex: '2', backgroundColor: '#111'}}>
             <div className={styles.container}>
-            <video playsInline width="100%" height="auto" autoPlay loop muted>
+            <video playsInline width="100%" height="auto" autoPlay loop muted poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                 <source src="/v3_header.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
