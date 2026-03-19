@@ -39,7 +39,7 @@ export default function Home() {
           gap: 10
         }}
       >
-        <Box sx={{
+        {/* <Box sx={{
                   display: {  sm: 'none', md: 'none', lg: 'none' },
                  borderRadius: '10px',
                  paddingTop: '30px',
@@ -54,7 +54,7 @@ export default function Home() {
              textTransform: 'uppercase'}} color="primary" variant="body">
           <i>Hardware • Lighting • Art • Fireplace • Architectural • Reproduction • Restoration</i>
           </Typography>
-        </Box>
+        </Box> */}
 
         <Typography variant="h4">
         <b>Artisan Ironwork</b>

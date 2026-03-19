@@ -81,7 +81,7 @@ export default function DrawerAppBar() {
 
         <Box sx={{  justifyContent: 'center', alignItems: 'center', zIndex: '2', backgroundColor: '#111'}}>
             <div className={styles.container}>
-            <video playsInline width="100%" height="auto" autoPlay loop muted poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+            <video playsInline width="100%" height="auto" autoPlay loop muted onLoadedData={() => setIsLoading(false)} poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                 <source src="/v3_header.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
@@ -130,12 +130,12 @@ export default function DrawerAppBar() {
                 <IconButton color='primary' href='https://www.instagram.com/bradleyschwarz/'><InstagramIcon></InstagramIcon></IconButton>
             </Box>
             </div>
-            <div className={styles.centered} >
+            {/* <div className={styles.centered} >
             <Typography sx={{
                 display: { xs: 'none', sm: 'block' }, textTransform: 'uppercase', maxWidth: '600px'}} color="primary" variant="h6">
             <i>Hardware • Lighting • Art • Fireplace • Architectural • Reproduction • Restoration</i>
             </Typography>
-            </div>
+            </div> */}
         </div>
         </Box>
 
