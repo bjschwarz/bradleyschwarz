@@ -122,7 +122,7 @@ export default function DrawerAppBar() {
                 {Object.entries(navItems).map(([key, value]) => {
                     const isActive = pathname === value.href;
                     return (  
-                    <Button style={{ width: 120, height: 50, fontSize:20 }} sx={{fontWeight: isActive ? 'bold' : 'normal'}} href={value.href} key={value.title} color='primary'>
+                    <Button style={{ width: 150, height: 50, fontSize:20 }} sx={{fontWeight: isActive ? 'bold' : 'normal'}} href={value.href} key={value.title} color='primary'>
                     {value.title}
                 </Button>
                     )
