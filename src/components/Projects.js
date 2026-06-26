@@ -220,20 +220,104 @@ import logbasket7 from "../../public/images/20251228_bss_portfolio_logbaskets_00
 import logbasket8 from "../../public/images/20251228_bss_portfolio_logbaskets_0084.jpg"
 import logbasket9 from "../../public/images/20251228_bss_portfolio_logbaskets_0088.jpg"
 
+//french gothic sample
+import frenchgothicsample1 from "../../public/images/frenchgothicsample1.jpg"
+import frenchgothicsample2 from "../../public/images/frenchgothicsample2.jpg"
+
+//floral railing sample
+import floralrailingsample1 from "../../public/images/floralrailing1.jpg"
+import floralrailingsample2 from "../../public/images/floralrailing2.jpg"
+import floralrailingsample3 from "../../public/images/floralrailing3.jpg"
+import floralrailingsample4 from "../../public/images/floralrailing4.jpg"
+import floralrailingsample5 from "../../public/images/floralrailing5.jpg"
+
+//french gothic pull
+import frenchgothicpull1 from "../../public/images/frenchgothicpull1.jpg"
+import frenchgothicpull2 from "../../public/images/frenchgothicpull2.jpg"
+import frenchgothicpull3 from "../../public/images/frenchgothicpull3.jpg"
+
+
 const detailImages = [
+    floralrailingsample4,
+    frenchgothicsample2,
+    frenchgothicpull3,
     logbasket1,
     sampleHinge1,
     doorknocker5,
-    doorknocker6,
     octogonlight2,
     brassface1,
-    crablock1,
-    dryingrack2,
     candelabra2,
     brassringpulls1,
 ]
 
 const projects = [
+    {
+        img: floralrailingsample1,
+        medium: 'Mild Steel',
+        title: 'Floral Railing Sample',
+        additional_images: [
+            {   
+                title: 'Decorative Log Basket 1',
+                img: floralrailingsample1
+            },
+            {   
+                title: 'Decorative Log Basket 1',
+                img: floralrailingsample2
+            },
+            {   
+                title: 'Decorative Log Basket 1',
+                img: floralrailingsample3
+            },
+            {   
+                title: 'Decorative Log Basket 1',
+                img: floralrailingsample4
+            },
+            {   
+                title: 'Decorative Log Basket 1',
+                img: floralrailingsample5
+            },
+                 
+        ],
+        description: ""
+    },
+    {
+        img: frenchgothicsample1,
+        medium: 'Mild Steel',
+        title: 'French Gothic Sample',
+        additional_images: [
+            {   
+                title: 'Decorative Log Basket 1',
+                img: frenchgothicsample1
+            },
+            {   
+                title: 'Decorative Log Basket 1',
+                img: frenchgothicsample2
+            },
+            
+        ],
+        description: ""
+    },
+    {
+        img: frenchgothicpull1,
+        medium: 'Mild Steel',
+        title: 'French Gothic Pull',
+        additional_images: [
+            {   
+                title: 'Decorative Log Basket 1',
+                img: frenchgothicpull1
+            },
+            {   
+                title: 'Decorative Log Basket 1',
+                img: frenchgothicpull2
+            },
+            {   
+                title: 'Decorative Log Basket 1',
+                img: frenchgothicpull3
+            },
+
+        ],
+        description: ""
+    },
     {
         img: logbasket1,
         medium: 'Mild Steel',
@@ -565,27 +649,27 @@ const projects = [
         ],
         description: ""
     },
-    {
-        img: woodenfigurestand1,
-        medium: 'Mild Steel',
-        title: 'Wooden Figure Stand',
-        additional_images: [
-            {   
-                title: 'Wooden Figure Stand 1',
-                img: woodenfigurestand1
-            },
-            {   
-                title: 'Wooden Figure Stand 2',
-                img: woodenfigurestand2
-            },
-            {   
-                title: 'Wooden Figure Stand 3',
-                img: woodenfigurestand3
-            },
+    // {
+    //     img: woodenfigurestand1,
+    //     medium: 'Mild Steel',
+    //     title: 'Wooden Figure Stand',
+    //     additional_images: [
+    //         {   
+    //             title: 'Wooden Figure Stand 1',
+    //             img: woodenfigurestand1
+    //         },
+    //         {   
+    //             title: 'Wooden Figure Stand 2',
+    //             img: woodenfigurestand2
+    //         },
+    //         {   
+    //             title: 'Wooden Figure Stand 3',
+    //             img: woodenfigurestand3
+    //         },
             
-        ],
-        description: ""
-    },
+    //     ],
+    //     description: ""
+    // },
     {
         img: frenchtoolstand1,
         medium: 'Mild Steel',
@@ -968,30 +1052,30 @@ const projects = [
     //     ],
     //     description: "This trivet was inspired by early medieval Gothic era ironwork, specifically the hinges of the Notre Dame Cathedral. I wanted to practice using some of the same ancient techniques, fire welding in this case, to join multiple leaves together into the end of a \"branch\". These methods served as research and practice for future work."
     // },
-    {
-        img: oakhook1,
-        medium: 'Mild Steel',
-        title: 'Oak Hook',
-        additional_images: [
-            {   
-                title: 'Oak Hook 1',
-                img: oakhook1
-            },
-            {   
-                title: 'Oak Hook 2',
-                img: oakhook2
-            },
-            {   
-                title: 'Oak Hook 2',
-                img: oakhook3
-            },
-            {   
-                title: 'Oak Hook 2',
-                img: oakhook4
-            },
-        ],
-        description: " "
-    },
+    // {
+    //     img: oakhook1,
+    //     medium: 'Mild Steel',
+    //     title: 'Oak Hook',
+    //     additional_images: [
+    //         {   
+    //             title: 'Oak Hook 1',
+    //             img: oakhook1
+    //         },
+    //         {   
+    //             title: 'Oak Hook 2',
+    //             img: oakhook2
+    //         },
+    //         {   
+    //             title: 'Oak Hook 2',
+    //             img: oakhook3
+    //         },
+    //         {   
+    //             title: 'Oak Hook 2',
+    //             img: oakhook4
+    //         },
+    //     ],
+    //     description: " "
+    // },
     // {
     //     img: flowerhook1,
     //     medium: 'Mild Steel',
